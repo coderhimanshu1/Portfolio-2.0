@@ -1,8 +1,22 @@
 .Home-bio {
   padding: 0 3%;
   text-align: center;
-  line-height: 120%;
+  line-height: 140%;
   font-weight: lighter;
+}
+
+.Home-bio p {
+  margin: 0%;
+}
+
+.Home-bio img {
+  width: 15%;
+  padding: 0%;
+}
+
+.Home-bio-img {
+  display: flex;
+  justify-content: end;
 }
 
 .Home-image-container {
