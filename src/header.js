@@ -5,7 +5,7 @@ import "./static/styles/techStack.css";
 
 const Header = ({ profileImage, flower, handleButtonClick }) => {
   return (
-    <>
+    <div className="Header">
       <div>
         <h1 className="name">Hey! I'm Himanshu</h1>
         <div className="Home-image-container">
@@ -29,10 +29,13 @@ const Header = ({ profileImage, flower, handleButtonClick }) => {
           <img src={flower} alt="flower" />
         </div>
       </div>
-      <button className="Home-button" onClick={handleButtonClick}>
-        Find more...
-      </button>
-    </>
+      <div className="button-container">
+        <button className="Home-button" onClick={handleButtonClick}>
+          Find more...
+          <span className="arrow"></span>
+        </button>
+      </div>
+    </div>
   );
 };
 
