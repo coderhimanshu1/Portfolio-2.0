@@ -4,23 +4,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import "./static/styles/work.css";
 import Projects from "./projects";
+import Title from "./title";
 
 const Work = () => {
   return (
     <div className="Work">
-      <hr />
-      <div className="title">
-        <div className="dots-container">
-          <div className="dot red"></div>
-          <div className="dot yellow"></div>
-          <div className="dot green"></div>
-        </div>
-
-        <div className="text">
-          <span>My Work | | </span>
-        </div>
-      </div>
-
+      <Title titleText="My Work" />
       <div className="projects-container">
         {Projects.map((project) => (
           <div className="project" key={project.id}>
