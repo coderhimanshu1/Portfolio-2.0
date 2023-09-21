@@ -1,0 +1,26 @@
+.Home-bio {
+  padding: 0 3%;
+  text-align: center;
+  line-height: 120%;
+  font-weight: lighter;
+}
+
+.Home-image-container {
+  text-align: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  border: 8px solid #f7bf3e;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.name {
+  text-align: center;
+}
+
+.role {
+  text-align: center;
+}
