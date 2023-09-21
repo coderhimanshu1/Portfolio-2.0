@@ -1,5 +1,6 @@
 import React from "react";
 import "./static/styles/techStack.css";
+import "./static/styles/common.css";
 import javascript from "./static/icons/js.png";
 import react from "./static/icons/react.svg";
 import python from "./static/icons/python.png";
@@ -24,14 +25,14 @@ const TechStack = ({ techStackRef }) => {
   return (
     <div className="techStack" ref={techStackRef}>
       <hr />
-      <div className="techStack-title">
+      <div className="title">
         <div className="dots-container">
           <div className="dot red"></div>
           <div className="dot yellow"></div>
           <div className="dot green"></div>
         </div>
 
-        <div className="tech-stack-text">
+        <div className="text">
           <span>Tech Stack | | </span>
         </div>
       </div>
