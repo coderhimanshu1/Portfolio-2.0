@@ -1,0 +1,28 @@
+.techStack {
+  text-align: center;
+}
+
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 600px;
+  margin: 35px auto;
+}
+
+.icon {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.icon-image {
+  width: 60px;
+  height: 60px;
+}
+
+.icon-text {
+  word-wrap: break-word;
+  margin-top: 10px;
+  font-size: 14px;
+}

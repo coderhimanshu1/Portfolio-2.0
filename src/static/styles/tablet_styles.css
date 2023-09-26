@@ -1,0 +1,250 @@
+/* styles_tablet.css */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /*****************
+   Common styles
+   ****************/
+  .dots-container {
+    max-width: 80px;
+  }
+
+  .dot {
+    width: 16px;
+    height: 16px;
+    margin: 4px;
+    margin-top: 4px;
+  }
+
+  .title {
+    margin-right: 10px;
+    padding: 0%;
+  }
+
+  .text {
+    font-size: 2em;
+  }
+
+  hr {
+    margin: 30px auto;
+    margin-bottom: 0.5%;
+  }
+
+  /*****************
+   Footer styles
+   ****************/
+
+  .Footer {
+    margin: 8% 4%;
+  }
+
+  .Footer-contact div {
+    margin: 8% 5%;
+  }
+
+  /*****************
+   Navbar styles
+   ****************/
+
+  .navbar {
+    margin: 2%;
+    margin-top: 0;
+  }
+
+  .navbar-left {
+    font-size: 140%;
+  }
+
+  .navbar-right {
+    font-size: 100%;
+  }
+
+  .navbar-right a,
+  .navbar span {
+    margin: 1%;
+  }
+
+  /*****************
+   Home styles
+   ****************/
+  .Home-bio {
+    padding: 0 5%;
+    text-align: center;
+    line-height: 160%;
+  }
+
+  .Home-bio img {
+    width: 30%;
+    padding: 0%;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Home-button {
+    width: 120px;
+  }
+
+  /*****************
+   TechStack styles
+   ****************/
+
+  .techStack {
+    text-align: center;
+  }
+
+  .icons-container {
+    margin: 25px auto;
+  }
+
+  .icon {
+    margin-bottom: 15px;
+    width: 40%;
+  }
+
+  .icon-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon-text {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+
+  /*****************
+   Work styles
+   ****************/
+
+  .project {
+    font-size: 130%;
+    width: 80%;
+  }
+
+  .project img {
+    max-width: 70%;
+  }
+
+  /*****************
+   DevFlow styles
+   ****************/
+  .DevFlow div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*****************
+   Image styles
+   ****************/
+  .Image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .Image img {
+    width: 45%;
+    height: auto;
+    border: 3px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  /*****************
+   Links styles
+   ****************/
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 0;
+  }
+
+  .link {
+    margin: 15px;
+    border: 3px solid transparent;
+  }
+
+  .link a {
+    text-decoration: underline;
+    color: black;
+  }
+  .links img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .link:hover {
+    border: 3px solid black;
+  }
+
+  /*****************
+   Project header styles
+   ****************/
+
+  .ProjectHeader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3%;
+    border: 2px solid black;
+  }
+
+  .ProjectHeader h1 {
+    margin-top: auto;
+  }
+
+  .ProjectHeader p {
+    margin: 8% 0;
+  }
+
+  .ProjectHeader-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ProjectHeader-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8% 2%;
+    width: 100%;
+  }
+
+  .ProjectHeader iframe {
+    width: 95%;
+    height: 30vh;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .ProjectHeader-info h4 {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0 3%;
+    margin: 0;
+  }
+
+  .ProjectHeader-info p {
+    font-size: 90%;
+  }
+
+  /*****************
+   Project page styles
+   ****************/
+  .ProjectPage h2 {
+    font-size: 120%;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 2%;
+    width: fit-content;
+    margin-top: 10%;
+  }
+
+  .ProjectPage h3 {
+    text-align: center;
+    margin-top: 10%;
+  }
+}

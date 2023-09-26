@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4%;
+  margin-top: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  border: 3px solid transparent;
+}
+
+.navbar-left {
+  margin: 4% 0;
+  font-size: 160%;
+  font-weight: 600;
+}
+
+.navbar-right {
+  font-size: 110%;
+  text-align: center;
+}
+
+.navbar-right a,
+.navbar span {
+  display: inline-block;
+  margin: 2%;
+}
+
+.navbar a:hover,
+.navbar span:hover {
+  color: black;
+  border: 3px solid black;
+}

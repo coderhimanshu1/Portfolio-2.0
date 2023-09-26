@@ -1,0 +1,13 @@
+.ProjectPage h2 {
+  font-size: 120%;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 2%;
+  width: fit-content;
+  margin-top: 10%;
+}
+
+.ProjectPage h3 {
+  text-align: center;
+  margin-top: 10%;
+}

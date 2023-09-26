@@ -1,0 +1,24 @@
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 3% 0;
+}
+
+.link {
+  margin: 15px;
+  border: 3px solid transparent;
+}
+
+.link a {
+  text-decoration: underline;
+  color: black;
+}
+.links img {
+  width: 50px;
+  height: 50px;
+}
+
+.link:hover {
+  border: 3px solid black;
+}
