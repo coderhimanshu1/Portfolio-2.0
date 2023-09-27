@@ -1,29 +1,54 @@
+/* padding: 4% 0; */
 /* styles_desktop.css */
 @media (min-width: 1024px) {
   /*****************
    Common styles
    ****************/
   .dots-container {
-    max-width: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 60px;
+    margin-left: 10px;
   }
 
   .dot {
-    width: 20px;
-    height: 20px;
-    margin: 6px;
+    width: 90px;
+    height: 14px;
+    border-radius: 50%;
+    margin: 3px;
+    margin-top: 13px;
   }
 
-  .title {
-    margin-right: 30px;
+  .red {
+    background-color: rgb(255, 86, 86);
   }
 
-  .text {
-    font-size: 1.6em;
+  .yellow {
+    background-color: rgb(255, 255, 152);
+  }
+
+  .green {
+    background-color: rgb(81, 169, 81);
   }
 
   hr {
-    margin: 40px auto;
-    margin-bottom: 0;
+    width: 100%;
+    border: 2px solid black;
+    margin: 20px auto;
+    margin-bottom: 0%;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .text {
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-top: 0%;
   }
 
   /*****************
@@ -71,12 +96,13 @@
 
   .Header {
     text-align: center;
-    height: 70vh;
+    height: fit-content;
   }
   .Header-components {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 4% 0;
   }
 
   .Header-profile {
@@ -128,6 +154,7 @@
     font-weight: 700;
     font-size: 150%;
     font-family: "Courier Prime", monospace;
+    margin-bottom: 2%;
   }
 
   .button-container {
@@ -153,6 +180,37 @@
   }
 
   /*****************
+   TechStack styles
+   ****************/
+  .techStack {
+    text-align: center;
+  }
+
+  .icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 35px auto;
+    padding: 8% 0;
+  }
+
+  .icon {
+    text-align: center;
+    margin-bottom: 30px;
+    width: 20%;
+  }
+
+  .icon-image {
+    width: 70px;
+  }
+
+  .icon-text {
+    margin-top: 5px;
+    font-size: 24px;
+  }
+
+  /*****************
    Footer styles
    ****************/
 
@@ -162,33 +220,6 @@
 
   .Footer-contact div {
     margin: 4% 10%;
-  }
-
-  /*****************
-   TechStack styles
-   ****************/
-  .techStack {
-    text-align: center;
-  }
-
-  .icons-container {
-    margin: 35px auto;
-    max-width: 800px;
-  }
-
-  .icon {
-    margin-bottom: 20px;
-    width: 30%;
-  }
-
-  .icon-image {
-    width: 60px;
-    height: 60px;
-  }
-
-  .icon-text {
-    margin-top: 10px;
-    font-size: 14px;
   }
 
   /*****************

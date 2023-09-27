@@ -4,28 +4,51 @@
    Common styles
    ****************/
   .dots-container {
-    max-width: 80px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 60px;
+    margin-left: 10px;
   }
 
   .dot {
-    width: 16px;
-    height: 16px;
-    margin: 4px;
-    margin-top: 4px;
+    width: 20px;
+    height: 18px;
+    border-radius: 50%;
+    margin: 2px;
+    margin-top: 3px;
   }
 
-  .title {
-    margin-right: 10px;
-    padding: 0%;
+  .red {
+    background-color: rgb(255, 86, 86);
   }
 
-  .text {
-    font-size: 2em;
+  .yellow {
+    background-color: rgb(255, 255, 152);
+  }
+
+  .green {
+    background-color: rgb(81, 169, 81);
   }
 
   hr {
-    margin: 30px auto;
-    margin-bottom: 0.5%;
+    width: 100%;
+    border: 2px solid black;
+    margin: 20px auto;
+    margin-bottom: 0%;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 99%;
+  }
+
+  .text {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 20px;
+    padding-top: 0%;
   }
 
   /*****************
@@ -140,6 +163,39 @@
   }
 
   /*****************
+   TechStack styles
+   ****************/
+
+  .techStack {
+    text-align: center;
+  }
+
+  .icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: 35px auto;
+  }
+
+  .icon {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 30%;
+  }
+
+  .icon-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .icon-text {
+    word-wrap: break-word;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  /*****************
    Footer styles
    ****************/
 
@@ -149,33 +205,6 @@
 
   .Footer-contact div {
     margin: 8% 5%;
-  }
-
-  /*****************
-   TechStack styles
-   ****************/
-
-  .techStack {
-    text-align: center;
-  }
-
-  .icons-container {
-    margin: 25px auto;
-  }
-
-  .icon {
-    margin-bottom: 15px;
-    width: 40%;
-  }
-
-  .icon-image {
-    width: 50px;
-    height: 50px;
-  }
-
-  .icon-text {
-    margin-top: 8px;
-    font-size: 12px;
   }
 
   /*****************
