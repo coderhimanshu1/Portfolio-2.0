@@ -63,6 +63,83 @@
   }
 
   /*****************
+   Home styles
+   ****************/
+  .Home-bio {
+    padding: 0 3%;
+    text-align: center;
+    line-height: 140%;
+    font-weight: lighter;
+  }
+
+  .Home-bio p {
+    margin: 0%;
+    font-size: 150%;
+    line-height: normal;
+  }
+
+  .Home-bio img {
+    width: 10%;
+    padding: 0%;
+  }
+
+  .Home-bio-img {
+    display: flex;
+    justify-content: end;
+    width: 90%;
+  }
+
+  .Home-image-container {
+    text-align: center;
+  }
+
+  .profile-image {
+    border-radius: 50%;
+    border: 8px solid #f7bf3e;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .Home-button {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 190px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 140%;
+    font-family: "Courier Prime", monospace;
+  }
+
+  .button-container {
+    position: relative;
+  }
+
+  .Home-button:hover {
+    color: #f7f4e3;
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .Header {
+    text-align: center;
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: -5px;
+    right: 1px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 12px 0;
+    border-color: #090909 transparent transparent transparent;
+    transform: rotate(135deg);
+  }
+
+  /*****************
    Footer styles
    ****************/
 
@@ -72,29 +149,6 @@
 
   .Footer-contact div {
     margin: 8% 5%;
-  }
-
-  /*****************
-   Home styles
-   ****************/
-  .Home-bio {
-    padding: 0 5%;
-    text-align: center;
-    line-height: 160%;
-  }
-
-  .Home-bio img {
-    width: 30%;
-    padding: 0%;
-  }
-
-  .profile-image {
-    width: 150px;
-    height: 150px;
-  }
-
-  .Home-button {
-    width: 120px;
   }
 
   /*****************
