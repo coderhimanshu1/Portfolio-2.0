@@ -12,10 +12,9 @@ const Work = () => {
       <Title titleText="My Work" />
       <div className="projects-container">
         {Projects.map((project) => (
-          <Link to={`/work/${project.linkData}`}>
+          <Link to={`/work/${project.linkData}`} key={project.id}>
             <div
               className="project"
-              key={project.id}
               style={{ backgroundColor: project.backgroundColor }}
             >
               <h3>{project.title}</h3>
