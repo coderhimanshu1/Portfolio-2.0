@@ -45,7 +45,7 @@
   }
 
   .text {
-    font-size: 1.2em;
+    font-size: 1.6em;
     font-weight: bold;
     margin-right: 20px;
     padding-top: 0%;
@@ -170,29 +170,71 @@
     text-align: center;
   }
 
+  .techStack p {
+    font-size: 160%;
+  }
+
   .icons-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 600px;
+    justify-content: center;
+    max-width: 100%;
     margin: 35px auto;
+    padding: 6% 0;
   }
 
   .icon {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 30%;
   }
 
   .icon-image {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
   }
 
   .icon-text {
-    word-wrap: break-word;
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: 8px;
+    font-size: 24px;
+  }
+
+  /*****************
+   Work styles
+   ****************/
+
+  .work a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+  }
+
+  .projects-container {
+    margin: 10% 0;
+  }
+
+  .project {
+    width: 92%;
+    height: 50%;
+    text-align: center;
+    border: 3px solid black;
+    margin: 2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .project h3 {
+    margin: 2% 1%;
+  }
+
+  .project p {
+    width: 90%;
+    margin: 3% 4%;
+  }
+  .project img {
+    max-width: 90%;
+    height: 10%;
+    border: 3px dashed black;
   }
 
   /*****************
@@ -205,19 +247,6 @@
 
   .Footer-contact div {
     margin: 8% 5%;
-  }
-
-  /*****************
-   Work styles
-   ****************/
-
-  .project {
-    font-size: 130%;
-    width: 80%;
-  }
-
-  .project img {
-    max-width: 70%;
   }
 
   /*****************
