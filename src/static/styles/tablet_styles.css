@@ -362,28 +362,28 @@
   }
 
   /*****************
+   Image styles
+   ****************/
+  .Image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Image img {
+    width: 90%;
+    height: 90%;
+    border: 3px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  /*****************
    DevFlow styles
    ****************/
   .DevFlow div {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  /*****************
-   Image styles
-   ****************/
-  .Image {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .Image img {
-    width: 45%;
-    height: auto;
-    border: 3px solid black;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
 
   /*****************

@@ -387,6 +387,25 @@
   }
 
   /*****************
+   Image styles
+   ****************/
+
+  .Image {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Image img {
+    width: 80%;
+    height: 90%;
+    margin: 0 7%;
+    border: 3px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  /*****************
    DevFlow styles
    ****************/
 
@@ -396,26 +415,10 @@
     justify-content: space-between;
   }
 
-  .Image {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  /*****************
-   Image styles
-   ****************/
-
-  .Image img {
-    width: 45%;
-    height: auto;
-    border: 3px solid black;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  }
-
   /*****************
    Project page styles
    ****************/
+
   .ProjectPage h2 {
     font-size: 150%;
     border: 3px solid black;

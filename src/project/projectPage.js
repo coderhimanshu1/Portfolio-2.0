@@ -56,16 +56,13 @@ const ProjectPage = ({ projectData }) => {
 
       <div ref={devProcessRef}>
         <Title titleText="Development Process" />
+
         {architecture && (
-          <Image
-            src={architecture}
-            alt="Architecture"
-            heading="Architecture Design"
-          />
+          <Image src={architecture} alt="Architecture" heading="Architecture" />
         )}
 
         {dbSchema && (
-          <Image src={dbSchema} alt="Database" heading="Database Design" />
+          <Image src={dbSchema} alt="Database" heading="Database Schema" />
         )}
 
         {customerJourney && (
