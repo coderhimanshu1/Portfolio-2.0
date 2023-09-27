@@ -1,6 +1,6 @@
 const JobFindrData = {
   projectName: "Job Findr | Job Search Platform",
-  backgroundColor: "#ECEFED",
+  backgroundColor: "#FFFAE6",
   description:
     "Full-stack application leveraging ReactJS and Express. This project integrates a robust job search API I built using Express, providing seamless access to dynamic job data. The seamless data sharing across the site, accomplished using React's useContext hook, attests to my proficiency in building secure, intuitive, and interactive web applications.",
   demoVideo: "https://www.youtube.com/embed/7PRzSLfWFjs?si=qW0Dp6FD7h4hjDOI",

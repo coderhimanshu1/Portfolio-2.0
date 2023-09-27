@@ -12,7 +12,6 @@ const List = ({ items }) => (
         )}
         {item.solution && (
           <p>
-            {" "}
             <b>Solution: </b>
             {item.solution}
           </p>

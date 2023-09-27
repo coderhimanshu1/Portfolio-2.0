@@ -87,7 +87,7 @@ const ProjectPage = ({ projectData }) => {
       <Title titleText="Key Challenges" />
 
       {keyChallenges && (
-        <div>
+        <div className="ProjectPage-list">
           <List items={keyChallenges} />
         </div>
       )}
@@ -95,7 +95,7 @@ const ProjectPage = ({ projectData }) => {
       <Title titleText="What I have learned" />
 
       {learnings && (
-        <div>
+        <div className="ProjectPage-list">
           <List items={learnings} />
         </div>
       )}

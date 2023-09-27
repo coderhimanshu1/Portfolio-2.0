@@ -3,7 +3,7 @@ import remplr1CustomerJourney from "../../static/projectData/Remplr1-customer-jo
 
 const RemplrData = {
   projectName: "Remplr | Meal Planner Platform",
-  backgroundColor: "#ECEFED",
+  backgroundColor: "#FFF6F3",
   description:
     "Tailored for nutritionists, offering features like user authentication, recipe discovery, meal planning, and in-depth recipe information.",
   demoVideo: "https://www.youtube.com/embed/9KFV8DqMros?si=vAL3LCqUQ4GNw3kI",

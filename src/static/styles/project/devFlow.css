@@ -1,5 +1,7 @@
-.DevFlow div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media (max-width: 768px) {
+  .DevFlow div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
