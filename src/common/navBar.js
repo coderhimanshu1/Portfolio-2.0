@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import "../static/styles/common/navBar.css";
+import "../static/styles/desktop_styles.css";
 
 const Navbar = ({ workRef, footerRef }) => {
   const handleWorkClick = () => {

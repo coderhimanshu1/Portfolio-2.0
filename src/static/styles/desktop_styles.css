@@ -27,6 +27,45 @@
   }
 
   /*****************
+   Navbar styles
+   ****************/
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    margin: 0 2%;
+    padding-top: 1%;
+    max-width: 80%;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    border: 3px solid transparent;
+    margin: 3%;
+  }
+
+  .navbar-left {
+    margin: 0;
+    margin-right: auto;
+    font-size: 200%;
+    font-weight: 600;
+    width: 50%;
+  }
+
+  .navbar-right {
+    font-size: 190%;
+    max-width: 30%;
+  }
+  .navbar a:hover,
+  .navbar span:hover {
+    color: black;
+    border: 3px solid black;
+  }
+
+  /*****************
    Footer styles
    ****************/
 
@@ -36,31 +75,6 @@
 
   .Footer-contact div {
     margin: 4% 10%;
-  }
-
-  /*****************
-   Navbar styles
-   ****************/
-
-  .navbar {
-    flex-direction: row;
-    align-items: center;
-    margin: 1%;
-    margin-top: 0;
-  }
-
-  .navbar a {
-    margin: 1%;
-  }
-
-  .navbar-left {
-    margin: 0;
-    margin-right: auto;
-    font-size: 130%;
-  }
-
-  .navbar-right {
-    font-size: 100%;
   }
 
   /*****************
