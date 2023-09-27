@@ -1,27 +1,29 @@
-.Footer {
-  display: flex;
-  margin: 12% 4%;
-  flex-direction: column;
-  justify-content: center;
-}
+@media (max-width: 768px) {
+  .Footer {
+    display: flex;
+    margin: 12% 4%;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.Footer-contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+  .Footer-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-.Footer-contact a {
-  text-decoration: none;
-  color: black;
-}
+  .Footer-contact a {
+    text-decoration: none;
+    color: black;
+  }
 
-.Footer-contact div {
-  margin: 12% 5%;
-}
+  .Footer-contact div {
+    margin: 12% 5%;
+  }
 
-.Footer-declaration {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  .Footer-declaration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
