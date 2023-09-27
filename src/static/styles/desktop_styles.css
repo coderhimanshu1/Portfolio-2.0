@@ -284,30 +284,73 @@
   }
 
   /*****************
-   DevFlow styles
+   Project header styles
    ****************/
 
-  .DevFlow div {
+  .ProjectHeader {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .Image {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  /*****************
-   Image styles
-   ****************/
-
-  .Image img {
-    width: 45%;
-    height: auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 3%;
+    margin: 5% 1%;
     border: 3px solid black;
+  }
+
+  .ProjectHeader-items {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ProjectHeader-items-text {
+    max-width: 50%;
+    margin: 3%;
+  }
+
+  .ProjectHeader-items-demo {
+    max-width: 40%;
+    margin: 0.4%;
+  }
+
+  .ProjectHeader h1 {
+    margin-top: 0;
+    margin-bottom: 5%;
+    font-size: 210%;
+  }
+
+  .ProjectHeader p {
+    margin: 4% 0;
+    font-size: 180%;
+  }
+
+  .ProjectHeader-info {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ProjectHeader-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4%;
+    width: 100%;
+    font-size: 160%;
+  }
+
+  .ProjectHeader iframe {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 110%;
+  }
+
+  .ProjectHeader-info h4 {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0 3%;
+    margin: 0;
+  }
+
+  .ProjectHeader-info p {
+    font-size: 90%;
   }
 
   /*****************
@@ -339,55 +382,35 @@
     border: 3px solid black;
   }
 
+  .link a:active {
+    color: rgb(2, 67, 2);
+  }
+
   /*****************
-   Project header styles
+   DevFlow styles
    ****************/
 
-  .ProjectHeader {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 3%;
-    border: 2px solid black;
-  }
-
-  .ProjectHeader h1 {
-    margin-top: auto;
-  }
-
-  .ProjectHeader p {
-    margin: 8% 0;
-  }
-
-  .ProjectHeader-info {
+  .DevFlow div {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
 
-  .ProjectHeader-info div {
+  .Image {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 8% 2%;
-    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
-  .ProjectHeader iframe {
-    width: 95%;
-    height: 30vh;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  }
+  /*****************
+   Image styles
+   ****************/
 
-  .ProjectHeader-info h4 {
+  .Image img {
+    width: 45%;
+    height: auto;
     border: 3px solid black;
-    border-radius: 20px;
-    width: fit-content;
-    padding: 0 3%;
-    margin: 0;
-  }
-
-  .ProjectHeader-info p {
-    font-size: 90%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
 
   /*****************
