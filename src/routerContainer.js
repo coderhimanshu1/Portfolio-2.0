@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./homepage/home";
 import Navbar from "./common/navBar";
 import ProjectPageContainer from "./project/projectPageContainer";
+import AboutPage from "./About/about";
 
 const RouteContainer = () => {
   const workRef = useRef(null);
@@ -26,6 +27,7 @@ const RouteContainer = () => {
           element={<Home workRef={workRef} footerRef={footerRef} />}
         />
         <Route path="/work/:projectKey" element={<ProjectPageContainer />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
     </Router>
   );
