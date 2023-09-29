@@ -4,6 +4,7 @@ import Home from "./homepage/home";
 import Navbar from "./common/navBar";
 import ProjectPageContainer from "./project/projectPageContainer";
 import AboutPage from "./About/about";
+import Footer from "./common/footer.js";
 
 const RouteContainer = () => {
   const workRef = useRef(null);
@@ -32,6 +33,8 @@ const RouteContainer = () => {
         <Route path="/work/:projectKey" element={<ProjectPageContainer />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
+
+      <Footer footerRef={footerRef} />
     </Router>
   );
 };

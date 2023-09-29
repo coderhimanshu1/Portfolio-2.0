@@ -99,8 +99,6 @@ const ProjectPage = ({ projectData }) => {
           <List items={learnings} />
         </div>
       )}
-
-      <Footer />
     </div>
   );
 };

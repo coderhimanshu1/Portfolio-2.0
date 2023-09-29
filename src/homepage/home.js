@@ -4,7 +4,6 @@ import "../static/styles/homepage/home.css";
 import Header from "./header";
 import TechStack from "./techStack";
 import Work from "./work";
-import Footer from "../common/footer.js";
 
 const Home = ({ workRef, footerRef }) => {
   const techStackRef = useRef(null);
@@ -17,7 +16,6 @@ const Home = ({ workRef, footerRef }) => {
       <Header handleButtonClick={handleButtonClick} />
       <TechStack techStackRef={techStackRef} />
       <Work workRef={workRef} />
-      <Footer footerRef={footerRef} />
     </div>
   );
 };

@@ -11,7 +11,7 @@ const Navbar = ({ handleContactClick, handleWorkClick }) => {
       </div>
       <div className="navbar-right">
         <Link to="/about">About</Link>
-        <span onClick={handleWorkClick}>Work</span>
+        {/* <span onClick={handleWorkClick}>Work</span> */}
         {/* <Link to="/blog">Blog</Link> */}
         <a
           href="https://drive.google.com/file/d/1G8_-2CpTHjNp0u6Ld9R2B4M1jny3uCng/view?usp=drive_link"
