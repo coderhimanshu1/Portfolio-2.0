@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import ProjectHeader from "./projectHeader";
-import Footer from "../common/footer";
 import List from "./list";
 import Image from "./image";
 import DevFlow from "./devFlow";
