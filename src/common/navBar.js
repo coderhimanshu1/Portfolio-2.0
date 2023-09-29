@@ -3,15 +3,7 @@ import { Link } from "react-router-dom";
 import "../static/styles/common/navBar.css";
 import "../static/styles/desktop_styles.css";
 
-const Navbar = ({ workRef, footerRef }) => {
-  const handleWorkClick = () => {
-    workRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
-
-  const handleContactClick = () => {
-    footerRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
-
+const Navbar = ({ handleContactClick, handleWorkClick }) => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -20,7 +12,7 @@ const Navbar = ({ workRef, footerRef }) => {
       <div className="navbar-right">
         <Link to="/about">About</Link>
         <span onClick={handleWorkClick}>Work</span>
-        <Link to="/blog">Blog</Link>
+        {/* <Link to="/blog">Blog</Link> */}
         <a
           href="https://drive.google.com/file/d/1G8_-2CpTHjNp0u6Ld9R2B4M1jny3uCng/view?usp=drive_link"
           target="_blank"

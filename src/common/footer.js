@@ -7,9 +7,9 @@ import "../static/styles/common/footer.css";
 
 import Title from "./title";
 
-const Footer = () => {
+const Footer = ({ footerRef }) => {
   return (
-    <>
+    <div ref={footerRef}>
       <Title titleText="Get in Touch!" />
       <div className="Footer">
         <p>
@@ -67,7 +67,7 @@ const Footer = () => {
           <p>Made with ❤️ 2023 by Himanshu</p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

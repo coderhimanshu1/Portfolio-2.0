@@ -13,13 +13,16 @@ const RouteContainer = () => {
     workRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
-  const handleFooterClick = () => {
-    workRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+  const handleContactClick = () => {
+    footerRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   return (
     <Router>
-      <Navbar workRef={workRef} footerRef={footerRef} />
+      <Navbar
+        handleWorkClick={handleWorkClick}
+        handleContactClick={handleContactClick}
+      />
       <Routes>
         <Route
           exact
