@@ -52,7 +52,6 @@ const AboutPage = () => {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 };
