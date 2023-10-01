@@ -21,7 +21,7 @@ const Navbar = ({ handleContactClick }) => {
           Resume
         </a>
         <a
-          href="https://drive.google.com/file/d/1G8_-2CpTHjNp0u6Ld9R2B4M1jny3uCng/view?usp=sharing"
+          href="https://www.linkedin.com/in/himanshukumar3/"
           target="_blank"
           rel="noopener noreferrer"
         >
