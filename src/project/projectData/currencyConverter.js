@@ -1,7 +1,4 @@
-import remplr1DbSchema from "../../static/projectData/Remplr1-Database-Schema.png";
-import remplr1CustomerJourney from "../../static/projectData/Remplr1-customer-journey.png";
-
-const RemplrData = {
+const CurrencyConverter = {
   projectName: "Currency Converter",
   backgroundColor: "#F2F4E7",
   description:
@@ -57,37 +54,36 @@ const RemplrData = {
         heading: "Deployment >>>",
         steps: [
           {
-            header: "Creating a Render Account",
-            text: "Signed up for a Render account at https://render.com/. Completed the registration process to set up a new account or logged in if an account already existed.",
+            header: "Creating a Heroku Account",
+            text: "Signed up for a Heroku account at https://www.heroku.com/. Completed the registration process to set up a new account or logged in if an account already existed.",
           },
           {
-            header: "Setting Up a New Web Service",
-            text: "Navigated to the Render Dashboard and clicked on 'Add New' to initiate the creation of a new web service. Selected the appropriate settings, including the environment (e.g., Python for Flask) and chosen region.",
+            header: "Installing the Heroku CLI",
+            text: "Downloaded and installed the Heroku Command Line Interface (CLI), which is used to manage and scale the applications and view application logs.",
           },
           {
             header: "Linking Your Git Repository",
-            text: "Connected the Git repository (used GitHub) to Render, allowing Render to automatically deploy the project whenever changes were pushed to the repository.",
+            text: "Initialized a Git repository in the project directory and linked the Git repository to Heroku, allowing Heroku to automatically deploy the project whenever changes were pushed to the repository.",
           },
           {
-            header: "Configuring Build Settings",
-            text: "Specified the build command and provided the directory where the Flask project was located. For instance, set the build command as 'gunicorn app:app' and the build directory as the root directory of the Flask application.",
+            header: "Creating a Heroku App",
+            text: "Used the 'heroku create' command to create a new application on Heroku. The output included the URL of the deployed application.",
           },
           {
-            header: "Setting Environment Variables (Optional)",
-            text: "Added any necessary environment variables in the Render Dashboard. This was particularly useful for sensitive information or configuration values that should not be hard-coded in the project.",
+            header: "Setting Environment Variables",
+            text: "Added any necessary environment variables in the Heroku Dashboard or using the 'heroku config:set' command. This was particularly useful for sensitive information or configuration values that should not be hard-coded in the project.",
           },
           {
             header: "Configuring Automatic Deployments",
-            text: "Enabled automatic deployments to ensure that Render automatically updated the web service whenever changes were pushed to the linked Git repository. This kept the project current and up-to-date.",
+            text: "Enabled automatic deployments in the Heroku Dashboard to ensure that Heroku automatically updated the web service whenever changes were pushed to the linked Git repository. This kept the project current and up-to-date.",
           },
-
           {
-            header: "Deploying Your Flask Project",
-            text: "Pushed changes to the linked Git repository. Render detected the changes and automatically deployed the Flask project based on the specified build settings. Monitored the deployment process through the Render Dashboard.",
+            header: "Deploying Your Project",
+            text: "Pushed changes to the linked Git repository. Heroku detected the changes and automatically deployed the project based on the Procfile or the specified build settings. Monitored the deployment process through the Heroku Dashboard.",
           },
           {
             header: "Accessing Your Deployed Project",
-            text: "After the deployment process was complete, accessed the live Flask-based project by visiting the provided URL in the Render Dashboard. The application was now accessible to users on the internet.",
+            text: "After the deployment process was complete, accessed the live project by visiting the provided URL in the output of the 'heroku create' command or in the Heroku Dashboard. The application was now accessible to users on the internet.",
           },
         ],
       },
@@ -121,4 +117,4 @@ const RemplrData = {
   ],
 };
 
-export default RemplrData;
+export default CurrencyConverter;

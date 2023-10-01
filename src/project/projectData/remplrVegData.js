@@ -13,7 +13,7 @@ const RemplrData = {
   customerJourney: remplr1CustomerJourney,
   role: "Full-stack Engineer",
   techStack: "Python, Flask, wtforms, PostgreSQL and JavaScript",
-  timeline: "July, 2023 - August, 2023",
+  timeline: "April, 2023 - May, 2023",
   devFlow: {
     headings: [
       {
