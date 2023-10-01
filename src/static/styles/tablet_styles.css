@@ -287,11 +287,13 @@
 
   .project h3 {
     margin: 2% 1%;
+    font-size: 150%;
   }
 
   .project p {
     width: 90%;
     margin: 3% 4%;
+    font-size: 140%;
   }
   .project img {
     max-width: 90%;
@@ -321,6 +323,9 @@
   }
 
   .Footer-contact a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     text-decoration: none;
     color: black;
   }
@@ -462,6 +467,7 @@
   .DevFlow div {
     margin-bottom: 5%;
   }
+
   /*****************
    Project page styles
    ****************/

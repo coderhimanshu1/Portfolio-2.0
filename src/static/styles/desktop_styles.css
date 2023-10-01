@@ -251,6 +251,7 @@
    ****************/
   .techStack {
     text-align: center;
+    margin-bottom: 8%;
   }
 
   .techStack p {
@@ -263,7 +264,8 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 35px auto;
-    padding: 8% 0;
+    padding: 6% 0;
+    padding-bottom: 2%;
   }
 
   .icon {
@@ -295,7 +297,7 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 10% 0;
+    margin: 6% 0;
   }
 
   .project {
@@ -336,6 +338,9 @@
   }
 
   .Footer-contact a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     text-decoration: none;
     color: black;
   }
