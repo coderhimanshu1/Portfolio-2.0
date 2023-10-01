@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import ProjectHeader from "./projectHeader";
 import List from "./list";
 import Image from "./image";
@@ -9,6 +9,10 @@ import "../static/styles/project/projectPage.css";
 
 const ProjectPage = ({ projectData }) => {
   const devProcessRef = useRef(null);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleButtonClick = () => {
     devProcessRef.current.scrollIntoView({
