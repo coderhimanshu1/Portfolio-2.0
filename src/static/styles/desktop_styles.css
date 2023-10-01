@@ -69,9 +69,13 @@
   .navbar a {
     text-decoration: none;
     color: black;
-    border: 3px solid transparent;
     margin: 3%;
     max-width: 90%;
+  }
+
+  .navbar a,
+  .navbar span {
+    border: 3px solid transparent;
   }
 
   .navbar-left {

@@ -2,7 +2,6 @@ import React from "react";
 import "../static/styles/about/about.css";
 import profileImage from "../static/images/himanshu.jpeg";
 import Title from "../common/title";
-import Footer from "../common/footer";
 import TimelineData from "./timelineData";
 
 const AboutPage = () => {

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../static/styles/common/navBar.css";
 import "../static/styles/desktop_styles.css";
 
-const Navbar = ({ handleContactClick, handleWorkClick }) => {
+const Navbar = ({ handleContactClick }) => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -21,7 +21,7 @@ const Navbar = ({ handleContactClick, handleWorkClick }) => {
           Resume
         </a>
         <a
-          href="https://www.linkedin.com/in/himanshukumar3/"
+          href="https://drive.google.com/file/d/1G8_-2CpTHjNp0u6Ld9R2B4M1jny3uCng/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >

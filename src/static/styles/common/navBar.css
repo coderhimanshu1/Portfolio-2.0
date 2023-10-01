@@ -15,12 +15,12 @@
 
   .navbar-left {
     margin: 4% 0;
-    font-size: 160%;
+    font-size: 170%;
     font-weight: 600;
   }
 
   .navbar-right {
-    font-size: 110%;
+    font-size: 120%;
     text-align: center;
   }
 
@@ -28,6 +28,11 @@
   .navbar span {
     display: inline-block;
     margin: 2%;
+  }
+
+  .navbar a,
+  .navbar span {
+    border: 3px solid transparent;
   }
 
   .navbar a:hover,

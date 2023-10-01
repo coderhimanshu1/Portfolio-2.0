@@ -68,6 +68,10 @@
   .navbar a {
     text-decoration: none;
     color: black;
+  }
+
+  .navbar a,
+  .navbar span {
     border: 3px solid transparent;
   }
 
@@ -83,6 +87,12 @@
   .navbar-right a,
   .navbar span {
     margin: 1%;
+  }
+
+  .navbar a:hover,
+  .navbar span:hover {
+    color: black;
+    border: 3px solid black;
   }
 
   /*****************
