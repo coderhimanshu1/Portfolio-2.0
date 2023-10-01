@@ -6,12 +6,14 @@ import "../static/styles/project/links.css";
 
 const Links = ({ github, liveLink, API }) => (
   <div className="links">
-    <div className="link">
-      <a href={github} target="_blank" rel="noopener noreferrer">
-        <img src={GitHub} alt="GitHub" />
-        <p>GitHub</p>
-      </a>
-    </div>
+    {github && (
+      <div className="link">
+        <a href={github} target="_blank" rel="noopener noreferrer">
+          <img src={GitHub} alt="GitHub" />
+          <p>GitHub</p>
+        </a>
+      </div>
+    )}
     {liveLink && (
       <div className="link">
         <a href={liveLink} target="_blank" rel="noopener noreferrer">
