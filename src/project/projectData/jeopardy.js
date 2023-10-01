@@ -1,5 +1,5 @@
 const Jeopardy = {
-  projectName: "Currency Converter",
+  projectName: "Jeopardy",
   backgroundColor: "#F2F4E7",
   description:
     "Jeopardy quiz show replica based on Javascript and DOM manipulation. The game utilized fundamentals of Object oriented programming and populate the game board by get request from Joepardy API. The questions are hidden at start. Once player start playing and select category, the first click displays the question and second click reveals the answer.",
@@ -7,7 +7,7 @@ const Jeopardy = {
   liveLink: "https://jeopardy-game1.surge.sh/",
   role: "Frontend Engineer",
   techStack: "JavaScript",
-  timeline: "December, 2023 - December, 2022",
+  timeline: "December, 2023 - December, 2023",
   devFlow: {
     headings: [
       {
