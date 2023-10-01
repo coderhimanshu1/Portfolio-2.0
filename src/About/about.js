@@ -13,7 +13,7 @@ const AboutPage = () => {
           <img src={profileImage} alt="Profile" className="profile-image" />
         </div>
 
-        <h1>Hi, I'm Himanshu Kumar. </h1>
+        <h1>Hey, I'm Himanshu! </h1>
 
         <p>
           I'm a full-stack software engineer with over six years of experience
@@ -45,7 +45,7 @@ const AboutPage = () => {
           <h3>My Story</h3>
           {TimelineData.map((item, index) => (
             <div className="timeline-item" key={index}>
-              {item.date && <div className="timeline-date">{item.date}</div>}
+              <div className="timeline-date">{item.date}</div>
               <div className="timeline-content">{item.event}</div>
             </div>
           ))}

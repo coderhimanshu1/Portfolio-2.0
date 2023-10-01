@@ -49,7 +49,7 @@ const TimelineData = [
   {
     date: "January 2022 - July 2022",
     event:
-      "undertook various projects, including a multipage portfolio website, a landing page, and several mini-projects, to refine my frontend skills and deepen my understanding of JavaScript.",
+      "Undertook various projects, including a multipage portfolio website, a landing page, and several mini-projects, to refine my frontend skills and deepen my understanding of JavaScript.",
   },
   {
     date: "November 2021",
