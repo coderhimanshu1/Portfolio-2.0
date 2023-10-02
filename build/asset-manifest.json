@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.501f37ab.css",
+    "main.js": "/static/js/main.ad33ed2d.js",
+    "static/js/787.6cbb3671.chunk.js": "/static/js/787.6cbb3671.chunk.js",
+    "static/media/remplr2.gif": "/static/media/remplr2.3e77f111925cfa36de1c.gif",
+    "static/media/remplr1.gif": "/static/media/remplr1.d34f8aa57cfde33b3af7.gif",
+    "static/media/jeopardy.gif": "/static/media/jeopardy.f109c42af8389e910e71.gif",
+    "static/media/currencyConverter.gif": "/static/media/currencyConverter.e9359cbb468e7db63a56.gif",
+    "static/media/jobFindr.gif": "/static/media/jobFindr.b90546de0f6a2ba270bf.gif",
+    "static/media/background.png": "/static/media/background.4eef31e7f151fe9401ad.png",
+    "static/media/Remplr-Design-Architecture.png": "/static/media/Remplr-Design-Architecture.08c2761b5058024d8a92.png",
+    "static/media/Remplr-component-structure.png": "/static/media/Remplr-component-structure.e8f5d5d5785495e1fb67.png",
+    "static/media/Remplr-Database-Schema.png": "/static/media/Remplr-Database-Schema.60365399ae941f241166.png",
+    "static/media/Remplr1-customer-journey.png": "/static/media/Remplr1-customer-journey.abf6256541b28e670fcb.png",
+    "static/media/Remplr1-Database-Schema.png": "/static/media/Remplr1-Database-Schema.5e0f686298243d798cb0.png",
+    "static/media/himanshu.jpeg": "/static/media/himanshu.340ef79fb0473cbfed7b.jpeg",
+    "static/media/flower.png": "/static/media/flower.114fca07bd4ce0e73f6c.png",
+    "static/media/api.png": "/static/media/api.09c9308d2901dd819952.png",
+    "static/media/react.svg": "/static/media/react.026908ceaa9e21a210983358723f369d.svg",
+    "index.html": "/index.html",
+    "main.501f37ab.css.map": "/static/css/main.501f37ab.css.map",
+    "main.ad33ed2d.js.map": "/static/js/main.ad33ed2d.js.map",
+    "787.6cbb3671.chunk.js.map": "/static/js/787.6cbb3671.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.501f37ab.css",
+    "static/js/main.ad33ed2d.js"
+  ]
+}

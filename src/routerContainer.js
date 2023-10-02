@@ -26,12 +26,12 @@ const RouteContainer = () => {
       />
       <Routes>
         <Route
-          exact
           path="/"
           element={<Home workRef={workRef} footerRef={footerRef} />}
         />
-        <Route path="/:projectKey" element={<ProjectPageContainer />} />
+
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/:projectKey" element={<ProjectPageContainer />} />
       </Routes>
 
       <Footer footerRef={footerRef} />
