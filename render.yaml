@@ -1,10 +1,8 @@
-services:
-  - type: web
-    name: catch-routes
-    env: static
+staticSites:
+  - name: my-app
     buildCommand: npm run build
-    staticPublishPath: ./build
-    routes:
-      - type: rewrite
-        source: /*
+    publishDir: build
+    redirects:
+      - source: /*
         destination: /index.html
+        type: 302
