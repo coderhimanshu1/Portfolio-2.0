@@ -170,7 +170,7 @@
 
   .Home-bio-img {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     width: 90%;
   }
 

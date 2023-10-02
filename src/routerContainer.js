@@ -32,6 +32,7 @@ const RouteContainer = () => {
         />
         <Route path="/work/:projectKey" element={<ProjectPageContainer />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route component={Home} />
       </Routes>
 
       <Footer footerRef={footerRef} />
