@@ -30,7 +30,7 @@ const RouteContainer = () => {
           path="/"
           element={<Home workRef={workRef} footerRef={footerRef} />}
         />
-        <Route path="/work/:projectKey" element={<ProjectPageContainer />} />
+        <Route path="/:projectKey" element={<ProjectPageContainer />} />
         <Route path="/about" element={<AboutPage />} />
         <Route component={Home} />
       </Routes>
