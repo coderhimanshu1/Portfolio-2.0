@@ -43,6 +43,12 @@ const Blog = ({ username }) => {
             className="Blog-overlay-content"
             onClick={(e) => e.stopPropagation()}
           >
+            <button
+              className="Blog-overlay-close"
+              onClick={() => setSelectedPost(null)}
+            >
+              X
+            </button>
             <h2>{selectedPost.title}</h2>
             <div dangerouslySetInnerHTML={{ __html: selectedPost.content }} />
             <a
