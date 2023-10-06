@@ -35,8 +35,15 @@
 
 .Blog-card:hover {
   transform: scale(1.05);
+  background-color: #676452;
+  color: #eee6b7;
 }
 
+.Blog-card:hover .Blog-button {
+  /* styles you want to apply to the button when the card is hovered */
+  background-color: #676452;
+  color: #eee6b7;
+}
 .Blog-card img {
   width: 100%;
   height: 150px;
@@ -62,16 +69,27 @@
 }
 
 .Blog-overlay-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #f7f4e3;
   width: 80vw;
   max-height: 90vh;
   overflow-y: auto;
-  padding: 16px;
+  padding: 36px;
   border-radius: 8px;
 }
 
+.Blog-overlay-content h2 {
+  font-size: 200%;
+}
 .Blog-overlay-content h3 {
   margin-top: 0;
+  font-size: 180%;
+}
+
+.Blog-overlay-content p {
+  font-size: 115%;
 }
 
 .Blog-button {
@@ -89,4 +107,24 @@
 .Blog-card-bottom {
   display: flex;
   justify-content: flex-end;
+}
+
+.Blog-overlay-button {
+  border: 3px solid black;
+  text-decoration: none;
+  text-align: center;
+  color: #676452;
+  border-radius: 20px;
+  padding: 5px;
+  width: 200px;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 130%;
+  margin-top: 5%;
+  font-family: "Courier Prime", monospace;
+}
+
+.Blog-overlay-button:hover {
+  background-color: #676452;
+  color: #eee6b7;
 }

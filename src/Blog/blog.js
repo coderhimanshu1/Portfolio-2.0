@@ -43,8 +43,16 @@ const Blog = ({ username }) => {
             className="Blog-overlay-content"
             onClick={(e) => e.stopPropagation()}
           >
-            <h3>{selectedPost.title}</h3>
+            <h2>{selectedPost.title}</h2>
             <div dangerouslySetInnerHTML={{ __html: selectedPost.content }} />
+            <a
+              href={selectedPost.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="Blog-overlay-button"
+            >
+              Read on Medium
+            </a>
           </div>
         </div>
       )}
