@@ -4,6 +4,7 @@ import Home from "./homepage/home";
 import Navbar from "./common/navBar";
 import ProjectPageContainer from "./project/projectPageContainer";
 import AboutPage from "./About/about";
+import Blog from "./Blog/blog";
 import Footer from "./common/footer.js";
 
 const RouteContainer = () => {
@@ -31,6 +32,7 @@ const RouteContainer = () => {
         />
 
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/blog" element={<Blog username="coderhimanshu" />} />
         <Route path="/:projectKey" element={<ProjectPageContainer />} />
       </Routes>
 

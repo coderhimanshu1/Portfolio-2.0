@@ -12,7 +12,7 @@ const Navbar = ({ handleContactClick }) => {
       <div className="navbar-right">
         <Link to="/about">About</Link>
         {/* <span onClick={handleWorkClick}>Work</span> */}
-        {/* <Link to="/blog">Blog</Link> */}
+        <Link to="/blog">Blog</Link>
         <a
           href="https://drive.google.com/file/d/1cW0BOhTXdgu0PfpUh_XSYyNpBsuXRiQs/view?usp=sharing"
           target="_blank"
