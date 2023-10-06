@@ -113,6 +113,11 @@
   justify-content: flex-end;
 }
 
+.Blog-overlay-content a {
+  text-decoration: underline;
+  color: #676452;
+}
+
 .Blog-overlay-button {
   border: 3px solid black;
   text-decoration: none;

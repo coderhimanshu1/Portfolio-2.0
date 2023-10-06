@@ -16,7 +16,16 @@ const Blog = ({ username }) => {
       .catch((error) => console.error("Error fetching Medium posts:", error));
   }, [API_URL]);
 
-  console.log(posts);
+  useEffect(() => {
+    // Get all anchor tags inside the .Blog-overlay-content
+    const links = document.querySelectorAll(".Blog-overlay-content a");
+
+    // Iterate through each link and set its target attribute
+    links.forEach((link) => {
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer"); // This is for security reasons
+    });
+  }, [selectedPost]); // Re-run the effect whenever selectedPost changes
 
   return (
     <div className="Blog">
