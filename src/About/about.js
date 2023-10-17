@@ -1,6 +1,6 @@
 import React from "react";
 import "../static/styles/about/about.css";
-import profileImage from "../static/images/himanshu.jpeg";
+import profileImage from "../static/images/himanshu.jpg";
 import Title from "../common/title";
 import TimelineData from "./timelineData";
 

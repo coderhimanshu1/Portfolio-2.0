@@ -1,5 +1,5 @@
 // Header.js
-import profileImage from "../static/images/himanshu.jpeg";
+import profileImage from "../static/images/himanshu.jpg";
 import flower from "../static/images/flower.png";
 import React from "react";
 import "../static/styles/homepage/techStack.css";
