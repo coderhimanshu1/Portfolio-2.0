@@ -152,7 +152,7 @@ const RemplrData = {
     },
     {
       header: "Effective State Management",
-      text: "Managing state in a React application is a critical aspect of building dynamic and interactive user interfaces. Through the Remplr project, I have utilized tools like React's Context that allowe me to manage the application's state, ensuring seamless data flow and consistent user experiences.",
+      text: "Managing state in a React application is a critical aspect of building dynamic and interactive user interfaces. Through the Remplr project, I have utilized tools like React's Context that allowed me to manage the application's state, ensuring seamless data flow and consistent user experiences.",
     },
     {
       header: "Backend Design Architecture",
