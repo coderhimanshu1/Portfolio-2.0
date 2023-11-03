@@ -3,10 +3,20 @@ import currencyConverter from "../static/projects/currencyConverter.gif";
 import jeopardy from "../static/projects/jeopardy.gif";
 import remplr2 from "../static/projects/remplr2.gif";
 import remplr1 from "../static/projects/remplr1.gif";
+import pathos from "../static/projects/pathos.gif";
 
 const Projects = [
   {
     id: 1,
+    title: "Pathos | AI-powered Empathy enhancer",
+    linkData: "pathos",
+    description:
+      "An AI-powered platform aiming to boost empathy and emotional intelligence in remote workplace environments.",
+    image: pathos,
+    backgroundColor: "#F7F0F9",
+  },
+  {
+    id: 2,
     title: "Remplr | Meal Planner Platform",
     linkData: "remplr",
     description:
@@ -15,7 +25,7 @@ const Projects = [
     backgroundColor: "#ECEFED",
   },
   {
-    id: 2,
+    id: 3,
     title: "Job Findr | Job Search Platform",
     linkData: "Job-Findr",
     description:
@@ -24,7 +34,7 @@ const Projects = [
     backgroundColor: "#FFFAE6",
   },
   {
-    id: 3,
+    id: 4,
     title: "Remplr | Vegetarian focussed meal planner",
     linkData: "remplr-veg",
     description:
@@ -33,7 +43,7 @@ const Projects = [
     backgroundColor: "#FFF6F3",
   },
   {
-    id: 4,
+    id: 5,
     title: "Currency Converter",
     linkData: "currency-converter",
     description:
