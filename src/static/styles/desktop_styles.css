@@ -34,7 +34,6 @@
   hr {
     max-width: 99%;
     border: 2px solid black;
-    margin: 20px auto;
     margin-bottom: 0%;
   }
 
@@ -144,8 +143,7 @@
   }
 
   .navbar-right {
-    font-size: 190%;
-    max-width: 90%;
+    font-size: 160%;
   }
   .navbar-right a:hover,
   .navbar span:hover {

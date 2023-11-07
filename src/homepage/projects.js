@@ -52,7 +52,7 @@ const Projects = [
     backgroundColor: "#F2F4E7",
   },
   {
-    id: 5,
+    id: 6,
     title: "Jeopardy Game",
     linkData: "jeopardy",
     description:
