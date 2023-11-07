@@ -5,7 +5,8 @@ import Navbar from "./common/navBar";
 import ProjectPageContainer from "./project/projectPageContainer";
 import AboutPage from "./About/about";
 import Blog from "./Blog/blog";
-import Footer from "./common/footer.js";
+import Footer from "./common/footer";
+import Work from "./homepage/work";
 
 const RouteContainer = () => {
   const footerRef = useRef(null);
@@ -21,6 +22,7 @@ const RouteContainer = () => {
         <Route path="/" element={<Home footerRef={footerRef} />} />
 
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/projects" element={<Work />} />
         <Route path="/blog" element={<Blog username="coderhimanshu" />} />
         <Route
           path="/projects/:projectKey"

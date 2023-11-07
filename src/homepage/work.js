@@ -6,9 +6,9 @@ import "../static/styles//homepage/work.css";
 import Projects from "./projects";
 import Title from "../common/title";
 
-const Work = ({ workRef }) => {
+const Work = () => {
   return (
-    <div className="work" ref={workRef}>
+    <div className="work">
       <Title titleText="My Work" />
       <div className="projects-container">
         {Projects.map((project) => (

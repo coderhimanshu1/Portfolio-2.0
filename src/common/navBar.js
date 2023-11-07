@@ -11,7 +11,7 @@ const Navbar = ({ handleContactClick }) => {
       </div>
       <div className="navbar-right">
         <Link to="/about">About</Link>
-        {/* <span onClick={handleWorkClick}>Work</span> */}
+        <Link to="/projects">Work</Link>
         <Link to="/blog">Blog</Link>
         <a
           href="https://drive.google.com/file/d/1lJfUGCnBruY1RJJ4QfdO7p_jltHuFqGo/view?usp=sharing"
@@ -20,13 +20,7 @@ const Navbar = ({ handleContactClick }) => {
         >
           Resume
         </a>
-        {/* <a
-          href="https://www.linkedin.com/in/himanshukumar3/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a> */}
+
         <span onClick={handleContactClick}>Contact</span>
       </div>
     </nav>
