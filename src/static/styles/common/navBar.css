@@ -19,6 +19,9 @@
     font-weight: 600;
   }
 
+  .navbar-left img {
+    max-width: 100px;
+  }
   .navbar-right {
     font-size: 120%;
     text-align: center;
@@ -35,7 +38,7 @@
     border: 3px solid transparent;
   }
 
-  .navbar a:hover,
+  .navbar-right a:hover,
   .navbar span:hover {
     color: black;
     border: 3px solid black;

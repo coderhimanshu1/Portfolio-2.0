@@ -2,12 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../static/styles/common/navBar.css";
 import "../static/styles/desktop_styles.css";
+import Logo from "../static/icons/logo.png";
 
 const Navbar = ({ handleContactClick }) => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <Link to="/">Himanshu Kumar</Link>
+        <Link to="/">
+          <img src={Logo} alt="LinkedIn" />
+        </Link>
       </div>
       <div className="navbar-right">
         <Link to="/about">About</Link>

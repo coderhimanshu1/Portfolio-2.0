@@ -112,9 +112,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 2%;
+    margin: 0 5%;
     padding-top: 2%;
-    max-width: 90%;
   }
 
   .navbar a {
@@ -127,9 +126,8 @@
     border: 3px solid transparent;
   }
 
-  .navbar-left {
-    font-size: 200%;
-    font-weight: 600;
+  .navbar-left img {
+    max-width: 120px;
   }
 
   .navbar-right {
@@ -141,7 +139,7 @@
     margin: 1%;
   }
 
-  .navbar a:hover,
+  .navbar-right a:hover,
   .navbar span:hover {
     color: black;
     border: 3px solid black;

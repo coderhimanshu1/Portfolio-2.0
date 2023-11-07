@@ -11,7 +11,7 @@ const Header = ({ handleButtonClick }) => {
       <Title />
       <div className="Header-components">
         <div className="Header-profile">
-          <h1 className="name">Hey! I'm Himanshu</h1>
+          <h1 className="name">Hey! I'm Himanshu Kumar</h1>
           <div className="Home-image-container">
             <img src={profileImage} alt="Profile" className="profile-image" />
           </div>
