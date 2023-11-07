@@ -3,7 +3,7 @@ const PathosData = {
   backgroundColor: "#F7F0F9",
   description:
     "An AI-powered platform aiming to boost empathy and emotional intelligence in remote workplace environments. Pathos is designed with a keen focus on improving interpersonal communications by providing real-time feedback on emotions, ensuring clearer, more effective conversations.",
-  demoVideo: "https://www.youtube.com/embed/bbpaphTU5GE?si=1_WGictuy-zx4c1m",
+  demoVideo: "https://www.youtube.com/embed/LbjaO1Lkncc?si=OEo8Cf-yhRpqSyYA",
   github: "https://github.com/coderhimanshu1/Pathos",
   liveLink: "",
   API: "",
