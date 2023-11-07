@@ -12,7 +12,7 @@ const Work = ({ workRef }) => {
       <Title titleText="My Work" />
       <div className="projects-container">
         {Projects.map((project) => (
-          <Link to={`/${project.linkData}`} key={project.id}>
+          <Link to={`/projects/${project.linkData}`} key={project.id}>
             <div
               className="project"
               style={{ backgroundColor: project.backgroundColor }}

@@ -8,12 +8,7 @@ import Blog from "./Blog/blog";
 import Footer from "./common/footer.js";
 
 const RouteContainer = () => {
-  const workRef = useRef(null);
   const footerRef = useRef(null);
-
-  const handleWorkClick = () => {
-    workRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
 
   const handleContactClick = () => {
     footerRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -21,19 +16,16 @@ const RouteContainer = () => {
 
   return (
     <Router>
-      <Navbar
-        handleWorkClick={handleWorkClick}
-        handleContactClick={handleContactClick}
-      />
+      <Navbar handleContactClick={handleContactClick} />
       <Routes>
-        <Route
-          path="/"
-          element={<Home workRef={workRef} footerRef={footerRef} />}
-        />
+        <Route path="/" element={<Home footerRef={footerRef} />} />
 
         <Route path="/about" element={<AboutPage />} />
         <Route path="/blog" element={<Blog username="coderhimanshu" />} />
-        <Route path="/:projectKey" element={<ProjectPageContainer />} />
+        <Route
+          path="/projects/:projectKey"
+          element={<ProjectPageContainer />}
+        />
       </Routes>
 
       <Footer footerRef={footerRef} />

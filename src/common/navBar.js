@@ -20,13 +20,13 @@ const Navbar = ({ handleContactClick }) => {
         >
           Resume
         </a>
-        <a
+        {/* <a
           href="https://www.linkedin.com/in/himanshukumar3/"
           target="_blank"
           rel="noopener noreferrer"
         >
           LinkedIn
-        </a>
+        </a> */}
         <span onClick={handleContactClick}>Contact</span>
       </div>
     </nav>

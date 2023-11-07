@@ -5,7 +5,7 @@ import Header from "./header";
 import TechStack from "./techStack";
 import Work from "./work";
 
-const Home = ({ workRef, footerRef }) => {
+const Home = ({ footerRef }) => {
   const techStackRef = useRef(null);
 
   const handleButtonClick = () => {
@@ -15,7 +15,7 @@ const Home = ({ workRef, footerRef }) => {
     <div className="Home">
       <Header handleButtonClick={handleButtonClick} />
       <TechStack techStackRef={techStackRef} />
-      <Work workRef={workRef} />
+      <Work />
     </div>
   );
 };
