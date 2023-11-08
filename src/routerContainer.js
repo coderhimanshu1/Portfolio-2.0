@@ -24,6 +24,8 @@ const RouteContainer = () => {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projects" element={<Work />} />
         <Route path="/blog" element={<Blog username="coderhimanshu" />} />
+        {/* temporary route for project | remove by November 30th */}
+        <Route path="/:projectKey" element={<ProjectPageContainer />} />
         <Route
           path="/projects/:projectKey"
           element={<ProjectPageContainer />}
