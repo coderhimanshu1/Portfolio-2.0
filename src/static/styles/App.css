@@ -17,3 +17,7 @@ body {
   opacity: 0.14;
   z-index: -1;
 }
+
+.App {
+  border: 24px solid black;
+}

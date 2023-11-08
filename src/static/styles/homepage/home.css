@@ -1,10 +1,13 @@
 @media (max-width: 768px) {
+  .Header-profile {
+    font-size: 90%;
+  }
   .Home-bio {
     padding: 0 3%;
     text-align: center;
-    line-height: 140%;
+    line-height: 150%;
     font-weight: lighter;
-    font-size: 130%;
+    font-size: 95%;
   }
 
   .Home-bio p {

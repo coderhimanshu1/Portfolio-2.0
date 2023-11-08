@@ -158,6 +158,9 @@
   .Header {
     text-align: center;
     height: fit-content;
+    /* border-radius: 30px; */
+    /* border: 20px solid #ccb222;
+    background-color: #f7f4e3; */
   }
   .Header-components {
     display: flex;
@@ -169,17 +172,16 @@
   .Header-profile {
     margin-top: 3%;
     width: 50%;
-    font-size: 130%;
+    font-size: 120%;
   }
 
   .Home-bio {
     margin-top: 9%;
     padding: 0 3%;
     text-align: center;
-    line-height: 140%;
-    font-size: 160%;
-    font-weight: lighter;
-    width: 50%;
+    line-height: 160%;
+    font-size: 140%;
+    width: 40%;
   }
 
   .Home-bio img {
