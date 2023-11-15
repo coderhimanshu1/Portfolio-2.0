@@ -31,6 +31,14 @@
   .navbar span {
     display: inline-block;
     margin: 2%;
+    padding: 1% 2%;
+    border-radius: 14px;
+  }
+
+  .navbar span {
+    background-color: #090909;
+    color: #f7f4e3;
+    cursor: pointer;
   }
 
   .navbar a,
@@ -38,9 +46,14 @@
     border: 3px solid transparent;
   }
 
-  .navbar-right a:hover,
+  .navbar-right a:hover {
+    color: black;
+    border: 3px solid black;
+  }
+
   .navbar span:hover {
     color: black;
+    background-color: #f7f4e3;
     border: 3px solid black;
   }
 }

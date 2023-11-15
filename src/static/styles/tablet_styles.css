@@ -114,6 +114,7 @@
     align-items: center;
     margin: 0 5%;
     padding-top: 2%;
+    max-width: 100%;
   }
 
   .navbar a {
@@ -124,6 +125,15 @@
   .navbar a,
   .navbar span {
     border: 3px solid transparent;
+    padding: 1% 2%;
+    margin: 2%;
+    border-radius: 14px;
+  }
+
+  .navbar span {
+    background-color: #090909;
+    color: #f7f4e3;
+    cursor: pointer;
   }
 
   .navbar-left img {
@@ -131,17 +141,24 @@
   }
 
   .navbar-right {
-    font-size: 150%;
+    font-size: 120%;
+    margin: 8%;
   }
 
   .navbar-right a,
   .navbar span {
     margin: 1%;
+    cursor: pointer;
   }
 
-  .navbar-right a:hover,
+  .navbar-right a:hover {
+    color: black;
+    border: 3px solid black;
+  }
+
   .navbar span:hover {
     color: black;
+    background-color: #f7f4e3;
     border: 3px solid black;
   }
 
