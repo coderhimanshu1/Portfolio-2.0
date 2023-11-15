@@ -2,7 +2,7 @@ const PathosData = {
   projectName: "Pathos | AI-powered Empathy enhancer [in progress]",
   backgroundColor: "#F7F0F9",
   description:
-    "Award winning AI-powered platform aiming to boost empathy and emotional intelligence in remote workplace environments. Pathos is designed with a keen focus on improving interpersonal communications by providing real-time feedback on emotions, ensuring clearer, more effective conversations.",
+    "Award winning AI-powered platform aiming to boost empathy and emotional intelligence in remote workplace environments. Pathos is designed with a keen focus on improving interpersonal communications by providing real-time suggestions, ensuring clearer, more effective conversations.",
   demoVideo: "https://www.youtube.com/embed/LbjaO1Lkncc?si=OEo8Cf-yhRpqSyYA",
   github: "https://github.com/coderhimanshu1/Pathos",
   liveLink: "",
@@ -17,7 +17,7 @@ const PathosData = {
         steps: {
           step1: {
             header: "Emotion Analysis",
-            text: "Incorporated AI models to analyze video feeds and interpret facial expressions, translating them into identifiable emotions to provide real-time feedback.",
+            text: "Incorporated AI models to analyze conversations and interpret context, translating them into identifiable emotions to provide real-time communication suggestions.",
           },
           step2: {
             header: "Real-time Data Flow",
@@ -25,7 +25,7 @@ const PathosData = {
           },
           step3: {
             header: "User Profiles and Feedback",
-            text: "Designed profiles for users to track and analyze their emotional intelligence progression over time, giving them insights and personalized feedback.",
+            text: "Designed tones for users to stay engaged and provide personalized feedback.",
           },
         },
       },
@@ -36,10 +36,6 @@ const PathosData = {
             header: "Responsive UI Design",
             text: "Crafted an intuitive user interface that adapts to multiple devices, ensuring a smooth user experience across platforms.",
           },
-          step2: {
-            header: "Data Visualization",
-            text: "Implemented data visualization tools to provide users with clear graphical insights into their emotional intelligence metrics.",
-          },
         },
       },
     ],
@@ -48,7 +44,7 @@ const PathosData = {
     {
       header: "Real-time AI Analysis",
       challenge:
-        "Ensuring real-time and accurate emotion analysis without causing significant latency in the video feed.",
+        "Ensuring real-time and accurate data flow and analysis was a challenging task, as the AI models were designed to analyze and interpret conversations in real-time.",
       solution:
         "Optimized the AI models and used efficient algorithms to ensure quick processing and minimal latency.",
     },
