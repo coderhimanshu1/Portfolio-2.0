@@ -1,7 +1,6 @@
 import "../static/styles/project/projectHeader.css";
 import Links from "./links";
 import Title from "../common/title";
-import Image from "./image";
 
 const ProjectHeader = ({
   projectName,
