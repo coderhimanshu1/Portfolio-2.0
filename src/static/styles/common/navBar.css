@@ -31,7 +31,7 @@
   .navbar span {
     display: inline-block;
     margin: 2%;
-    padding: 1% 2%;
+
     border-radius: 14px;
   }
 
@@ -39,6 +39,7 @@
     background-color: #090909;
     color: #f7f4e3;
     cursor: pointer;
+    padding: 1% 3%;
   }
 
   .navbar a,

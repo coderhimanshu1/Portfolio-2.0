@@ -1,3 +1,5 @@
+import pathosBadge from "../../static/icons/Pathos-badge.PNG";
+
 const PathosData = {
   projectName: "Pathos | AI-powered Empathy enhancer [in progress]",
   backgroundColor: "#F7F0F9",
@@ -6,6 +8,7 @@ const PathosData = {
   demoVideo: "https://www.youtube.com/embed/LbjaO1Lkncc?si=OEo8Cf-yhRpqSyYA",
   github: "https://github.com/coderhimanshu1/Pathos",
   liveLink: "",
+  badge: pathosBadge,
   API: "",
   role: "Frontend-focused Full-stack Developer",
   techStack: "React, Node.js, Express.js, AI Integration",

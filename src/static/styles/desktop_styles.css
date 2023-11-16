@@ -315,6 +315,11 @@
     border: 3px solid black;
     margin: 2%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+
+  .project:hover {
+    transform: scale(1.05);
   }
 
   .project p {
@@ -325,6 +330,17 @@
     max-width: 90%;
     height: 280px;
     border: 3px dashed black;
+  }
+
+  .project-description-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .work-badge {
+    margin: 2% 4%;
+    border-radius: 20px;
+    max-height: 80px;
   }
   /*****************
    Footer styles
@@ -445,6 +461,10 @@
 
   .ProjectHeader-info p {
     font-size: 90%;
+  }
+
+  .ProjectHeader-badge {
+    max-width: 40%;
   }
 
   /*****************

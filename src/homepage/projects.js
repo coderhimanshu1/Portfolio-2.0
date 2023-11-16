@@ -4,6 +4,7 @@ import jeopardy from "../static/projects/jeopardy.gif";
 import remplr2 from "../static/projects/remplr2.gif";
 import remplr1 from "../static/projects/remplr1.gif";
 import pathos from "../static/projects/pathos.gif";
+import pathosBadge from "../static/icons/Pathos-badge.PNG";
 
 const Projects = [
   {
@@ -11,8 +12,9 @@ const Projects = [
     title: "Pathos | AI-powered Empathy enhancer",
     linkData: "pathos",
     description:
-      "An AI-powered platform aiming to boost empathy and emotional intelligence in remote workplace environments.",
+      "Award winning AI-powered platform aiming to boost empathy and emotional intelligence in remote workplace environments.",
     image: pathos,
+    badge: pathosBadge,
     backgroundColor: "#F7F0F9",
   },
   {

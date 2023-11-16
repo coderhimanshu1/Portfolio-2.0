@@ -1,6 +1,7 @@
 import "../static/styles/project/projectHeader.css";
 import Links from "./links";
 import Title from "../common/title";
+import Image from "./image";
 
 const ProjectHeader = ({
   projectName,
@@ -14,6 +15,7 @@ const ProjectHeader = ({
   github,
   API,
   handleButtonClick,
+  badge,
 }) => {
   return (
     <>
@@ -26,6 +28,9 @@ const ProjectHeader = ({
         <div className="ProjectHeader-items">
           <div className="ProjectHeader-items-text">
             <p>{description}</p>
+            {badge && (
+              <img className="ProjectHeader-badge" src={badge} alt="badge" />
+            )}
             <div className="ProjectHeader-info">
               <div>
                 <h4>Roles</h4>

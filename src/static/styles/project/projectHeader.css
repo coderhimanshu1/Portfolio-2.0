@@ -46,4 +46,9 @@
   .ProjectHeader-info p {
     font-size: 90%;
   }
+
+  .ProjectHeader-badge {
+    border-radius: 20px;
+    max-width: 80%;
+  }
 }

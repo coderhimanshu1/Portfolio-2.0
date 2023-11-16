@@ -55,6 +55,7 @@ const ProjectPage = ({ projectData }) => {
         liveLink={liveLink}
         API={API}
         handleButtonClick={handleButtonClick}
+        badge={projectData.badge}
       />
 
       <div ref={devProcessRef}>

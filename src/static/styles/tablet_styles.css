@@ -419,7 +419,9 @@
   .ProjectHeader-info p {
     font-size: 90%;
   }
-
+  .ProjectHeader-badge {
+    max-width: 40%;
+  }
   /*****************
    Links styles
    ****************/
