@@ -1,5 +1,5 @@
 /* styles_tablet.css */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   /*****************
    Common styles
    ****************/
@@ -141,7 +141,7 @@
   }
 
   .navbar-right {
-    font-size: 120%;
+    font-size: 140%;
     margin: 8%;
   }
 
@@ -165,17 +165,20 @@
   /*****************
    Home styles
    ****************/
+
+  .Header-profile {
+    font-size: 100%;
+  }
+
   .Home-bio {
     padding: 0 3%;
     text-align: center;
     line-height: 140%;
-    font-weight: lighter;
   }
 
   .Home-bio p {
-    margin: 0%;
-    font-size: 150%;
-    line-height: normal;
+    font-size: 90%;
+    line-height: 140%;
   }
 
   .Home-bio img {
