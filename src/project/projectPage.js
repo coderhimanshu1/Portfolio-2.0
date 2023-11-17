@@ -82,6 +82,7 @@ const ProjectPage = ({ projectData }) => {
             src={componentStructure}
             alt="Component Design"
             heading="Component Design"
+            className="small-image"
           />
         )}
 
