@@ -348,7 +348,7 @@
 
   .Footer {
     display: flex;
-    margin: 6% 4%;
+    margin: 3% 4%;
     flex-direction: column;
     justify-content: center;
   }
@@ -380,10 +380,11 @@
 
   .Footer-contact a:hover {
     border: 3px solid black;
+    border-radius: 16px;
   }
 
   .Footer-contact div {
-    margin: 2% 5%;
+    margin: 2% 4%;
   }
 
   .Footer-declaration {
@@ -391,6 +392,24 @@
     flex-direction: column;
     align-items: center;
     font-size: 80%;
+    margin-top: 1%;
+  }
+
+  .Footer-declaration small {
+    line-height: 100%;
+  }
+
+  .Footer-declaration a {
+    text-decoration: dotted underline;
+    color: #090909;
+    font-size: 140%;
+    border-radius: 16px;
+    padding: 10px;
+  }
+
+  .Footer-declaration a:hover {
+    text-decoration: dashed underline;
+    font-weight: 600;
   }
 
   /*****************

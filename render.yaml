@@ -1,5 +1,5 @@
 staticSites:
-  - name: my-app
+  - name: Himanshu dot dev portfolio
     buildCommand: npm run build
     publishDir: build
     redirects:

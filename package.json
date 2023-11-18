@@ -36,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Portfolio site for Himanshu Kumar.✨",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

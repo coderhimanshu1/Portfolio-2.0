@@ -32,7 +32,7 @@ const Footer = ({ footerRef }) => {
 
           <div>
             <a
-              href="https://github.com/coderhimanshu1"
+              href="https://github.com/himanshuk-dev"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,9 +62,22 @@ const Footer = ({ footerRef }) => {
           </div>
         </div>
         <div className="Footer-declaration">
-          <p>himanshuk.kumar01@gmail.com</p>
+          <p className="Footer-declaration-email">
+            himanshuk.kumar01@gmail.com
+          </p>
 
-          <p>Made with ❤️ 2023 by Himanshu</p>
+          <small>
+            <p>Made with ❤️ in Vancouver</p>
+            <p>using React.js</p>
+          </small>
+          <a
+            href="https://github.com/himanshuk-dev/dot-dev"
+            alt="github link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Source
+          </a>
         </div>
       </div>
     </div>
