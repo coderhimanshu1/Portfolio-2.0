@@ -633,4 +633,25 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  .ProjectPage-note {
+    display: flex;
+    flex-direction: row;
+    margin: 0 2%;
+  }
+
+  .ProjectPage-note ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .ProjectPage-note p {
+    font-size: 90%;
+    line-height: 150%;
+    font-style: italic;
+  }
+
+  .ProjectPage-note li {
+    list-style: none;
+  }
 }

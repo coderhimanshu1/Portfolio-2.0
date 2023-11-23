@@ -158,8 +158,9 @@ const RemplrData = {
       header: "Backend Design Architecture",
       text: "Designing a robust backend architecture is paramount for building scalable and maintainable applications. In the Remplr project, I carefully crafted an architecture using Express.js and Node.js that prioritized efficiency, security, and extensibility. This included creating modular routes, implementing middleware functions, and structuring models for efficient database interactions. ",
     },
+  ],
+  notes: [
     {
-      header: "Note:",
       text: "Though the second feature 'Linking Nutritionists with Clients and Sharing Meal Plans' is not implemented on the front end yet, I have successfully solved this challenge at the backend.",
     },
   ],

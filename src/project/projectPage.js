@@ -39,6 +39,7 @@ const ProjectPage = ({ projectData }) => {
     devFlow,
     keyChallenges,
     learnings,
+    notes,
   } = projectData;
 
   return (
@@ -102,6 +103,13 @@ const ProjectPage = ({ projectData }) => {
       {learnings && (
         <div className="ProjectPage-list">
           <List items={learnings} />
+        </div>
+      )}
+
+      {notes && (
+        <div className="ProjectPage-note">
+          <b>Note: </b>
+          <List items={notes} />
         </div>
       )}
     </div>
