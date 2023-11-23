@@ -523,14 +523,20 @@
     width: 50%;
   }
 
-  .ProjectPage ul {
-    font-size: 140%;
-    width: 60%;
+  .ProjectPage-list h4 {
+    font-size: 90%;
   }
 
-  .ProjectPage-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .ProjectPage-list p {
+    font-size: 70%;
+    line-height: 150%;
+  }
+
+  .ProjectPage-list li {
+    margin: 1%;
+    width: 50%;
+    border-radius: 20px;
+    padding: 1%;
+    border: 2px solid black;
   }
 }
