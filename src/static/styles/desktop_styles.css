@@ -556,16 +556,23 @@
 
   .DevFlow h3 {
     font-size: 180%;
-    margin: 0;
+    margin: 0%;
     padding: 0;
+    border-radius: 20px;
   }
 
   .DevFlow ol {
-    font-size: 140%;
-    width: 60%;
+    font-size: 120%;
+    line-height: 160%;
+    width: 70%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: 2px solid black;
   }
 
   .DevFlow div {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 3%;
   }
 
@@ -575,7 +582,8 @@
 
   .ProjectPage h2 {
     font-size: 150%;
-    border: 3px solid black;
+    background-color: black;
+    color: #f7f4e3;
     border-radius: 20px;
     padding: 2%;
     width: fit-content;
@@ -585,16 +593,65 @@
   .ProjectPage h3 {
     text-align: center;
     margin-top: 5%;
+    background-color: #f7cf73;
+    padding: 1%;
+    width: 50%;
   }
 
   .ProjectPage ul {
+    display: flex;
+    flex-direction: row;
     font-size: 140%;
-    width: 60%;
+    padding: 2%;
+  }
+
+  .ProjectPage-list h4 {
+    text-align: center;
+    background-color: #f7bf3e;
+    padding: 2%;
+    border-radius: 20px;
+  }
+
+  .ProjectPage-list p {
+    font-size: 80%;
+    line-height: 160%;
+    padding: 0 2%;
+  }
+
+  .ProjectPage-list li {
+    list-style: none;
+    background-color: whitesmoke;
+    margin: 1%;
+    width: 50%;
+    border-radius: 20px;
+    padding: 1%;
+    border: 2px solid black;
   }
 
   .ProjectPage-list {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .ProjectPage-note {
+    display: flex;
+    flex-direction: row;
+    margin: 0 2%;
+  }
+
+  .ProjectPage-note ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .ProjectPage-note p {
+    font-size: 90%;
+    line-height: 150%;
+    font-style: italic;
+  }
+
+  .ProjectPage-note li {
+    list-style: none;
   }
 }
