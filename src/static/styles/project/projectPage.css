@@ -1,7 +1,8 @@
 @media (max-width: 768px) {
   .ProjectPage h2 {
-    font-size: 120%;
-    border: 3px solid black;
+    font-size: 130%;
+    background-color: black;
+    color: #f7f4e3;
     border-radius: 20px;
     padding: 2%;
     width: fit-content;
@@ -10,6 +11,10 @@
 
   .ProjectPage h3 {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
+    background-color: #f7cf73;
+    padding: 2% 0;
+    width: 80%;
+    font-size: 110%;
   }
 }
