@@ -17,4 +17,40 @@
     width: 80%;
     font-size: 110%;
   }
+
+  .ProjectPage ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 140%;
+    width: 80%;
+  }
+
+  .ProjectPage-list h4 {
+    text-align: center;
+    font-size: 80%;
+    background-color: #f7bf3e;
+    padding: 2%;
+    border-radius: 20px;
+  }
+
+  .ProjectPage-list p {
+    font-size: 70%;
+    line-height: 150%;
+    padding: 0 2%;
+  }
+
+  .ProjectPage-list li {
+    list-style: none;
+    background-color: whitesmoke;
+    margin: 1%;
+    border-radius: 20px;
+    padding: 1%;
+    border: 2px solid black;
+  }
+
+  .ProjectPage-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
