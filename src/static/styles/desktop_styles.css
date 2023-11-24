@@ -448,7 +448,8 @@
 
   .ProjectHeader p {
     margin: 4% 0;
-    font-size: 180%;
+    font-size: 160%;
+    line-height: 150%;
   }
 
   .ProjectHeader-info {
@@ -462,7 +463,8 @@
     align-items: center;
     margin: 4%;
     width: 100%;
-    font-size: 160%;
+    font-size: 130%;
+    line-height: 150%;
   }
 
   .ProjectHeader iframe {
@@ -513,6 +515,10 @@
 
   .link:hover {
     border: 3px solid black;
+  }
+
+  .link p {
+    font-size: 140%;
   }
 
   .link a:active {
