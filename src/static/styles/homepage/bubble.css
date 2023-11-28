@@ -1,0 +1,27 @@
+/* .bubble {
+  padding: 10px 20px;
+  background-color: #070606;
+  border-radius: 20px;
+  width: fit-content;
+  border: 1px solid #070606;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  color: #f7f4e3;
+  position: relative;
+  margin: 10px 0;
+}
+
+.bubble::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top-color: black;
+  rotate: 180deg;
+  border-bottom: 0;
+  margin-left: -15px;
+  margin-bottom: 1px;
+} */

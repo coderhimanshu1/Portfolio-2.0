@@ -4,8 +4,13 @@ import flower from "../static/images/flower.png";
 import React from "react";
 import "../static/styles/homepage/techStack.css";
 import Title from "../common/title";
+// import Bubble from "./bubble";
 
 const Header = ({ handleButtonClick }) => {
+  // const [currentActivity, setCurrentActivity] = useState(
+  //   "Reading about System designs and adding Next.js"
+  // );
+
   return (
     <div className="Header">
       <Title />
@@ -33,6 +38,7 @@ const Header = ({ handleButtonClick }) => {
           <div className="Home-bio-img">
             <img src={flower} alt="flower" />
           </div>
+          {/* <Bubble text={currentActivity} /> */}
         </div>
       </div>
       <div className="button-container">
