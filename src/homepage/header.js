@@ -23,11 +23,12 @@ const Header = ({ handleButtonClick }) => {
         </div>
         <div className="Home-bio">
           <p>
-            Full Stack Engineer with a passion for delivering quality software.
-            I strive to motivate individuals and showcase the qualities of a
-            great teammate. I constantly seek to learn new technologies within
-            the client user interface and backend programming. I have always
-            considered learning new programming languages fun and exciting!
+            I'm a Full Stack Engineer who enjoys making great software with
+            user-centric approach. I always aim to be a supportive team member
+            and inspire those around me. I'm passionate about learning new
+            front-end and back-end technologies to create a real impact. To me,
+            discovering new programming languages is not just fun, it's a way to
+            make better software for people.
           </p>
           <div className="Home-bio-img">
             <img src={flower} alt="flower" />
