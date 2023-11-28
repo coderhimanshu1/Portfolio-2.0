@@ -298,8 +298,10 @@
     width: 92%;
     height: 50%;
     text-align: center;
+    border-radius: 20px;
     border: 3px solid black;
     margin: 2%;
+
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
 
@@ -317,6 +319,13 @@
     max-width: 90%;
     height: 10%;
     border: 3px dashed black;
+  }
+
+  .work-badge {
+    margin: 2% 4%;
+    border-radius: 20px;
+    width: 150px;
+    align-self: end;
   }
 
   /*****************
