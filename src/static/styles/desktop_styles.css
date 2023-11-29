@@ -662,3 +662,12 @@
     list-style: none;
   }
 }
+
+/* Blog styles */
+
+/* center image */
+.Blog-overlay figure {
+  width: 40%;
+  margin: 0 20%;
+  padding: 0;
+}
