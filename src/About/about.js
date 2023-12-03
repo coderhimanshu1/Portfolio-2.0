@@ -34,7 +34,7 @@ const AboutPage = () => {
           header="Recent Updates"
           text="Won Springboard Hackathon: Proposed original idea to build AI-powered platform aiming to boost empathy and emotional intelligence in remote workplace environments."
           color="#E8E5CF"
-          image={pathosBadge}
+          icon={pathosBadge}
         />
         <Box
           header="How it Sparked?"
@@ -51,6 +51,7 @@ const AboutPage = () => {
                 text={item.event}
                 color={item.color}
                 image={item.image}
+                icon={item.icon}
               />
             </div>
           ))}

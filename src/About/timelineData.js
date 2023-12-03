@@ -1,4 +1,5 @@
 import star from "../static/icons/star.png";
+import star2 from "../static/icons/2.png";
 
 const TimelineData = [
   {
@@ -6,13 +7,12 @@ const TimelineData = [
     event:
       " Completed Software Engineering (Full Stack) program at Springboard where I learnt JavaScript and Python and was actively involved in code reviews and built several Full Stack applications using React.js at Frontend and Node-based API for backend. ",
     color: "#E4DFDF",
-    image: star,
+    icon: star,
   },
 
   {
-    date: "July 2023 - August 2023",
-    event:
-      "Completed my second capstone project, a full-stack application. This involved meticulously planning the architecture and designing an efficient database schema. I developed the API using Node.js and Express, set up a PostgreSQL database, and opted for React on the frontend due to its effective compositional model. This project was a source of great pride for me, as it allowed me to implement various functionalities while overcoming the challenges it presented. The experience also underscored the importance of thorough planning in the development process.",
+    image: star2,
+    color: "black",
   },
   {
     event:
