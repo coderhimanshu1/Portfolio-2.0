@@ -3,6 +3,7 @@ import "../static/styles/about/about.css";
 import profileImage from "../static/images/himanshu.jpg";
 import Title from "../common/title";
 import TimelineData from "./timelineData";
+import Box from "./box";
 
 const AboutPage = () => {
   return (
@@ -12,15 +13,24 @@ const AboutPage = () => {
         <div className="about-image-container">
           <img src={profileImage} alt="Profile" className="about-image" />
         </div>
-        <h1>Hey, I'm Himanshu! </h1>
-        <p>
-          I'm a Full Stack Engineer based in Vancouver who enjoys building great
+        <div className="about-text">
+          <p>
+            Hello, My Name is <br />
+            <b>Himanshu Kumar</b>
+            <hr />
+            <p>Full Stack engineer</p>
+          </p>
+        </div>
+        <Box
+          header="About Me"
+          text="I'm a Full Stack Engineer based in Vancouver who enjoys building great
           software with a user-centric approach. I recently graduated from
           Springboard's Software Engineering (Full Stack) program. Before the
           Software Engineering pivot, I spent 7+ years working in leadership +
           System Admin roles in the IT industry and have a Bachelor of
-          Technology Degree.
-        </p>
+          Technology Degree."
+          color={"#F9EFE3"}
+        />
 
         <p>
           During my time working on Wordpress frontend for my food blog, I got
