@@ -1,9 +1,14 @@
+import star from "../static/icons/star.png";
+
 const TimelineData = [
   {
-    date: "September 2023",
+    date: "October 2023",
     event:
-      "Successfully completed a total of 117 projects, encompassing a wide range of applications. These projects span from fundamental tasks like creating a Todo app to gain proficiency in DOM manipulation, to tackling complex coding problems aimed at honing my understanding of data structures and algorithms. Through this journey, I have systematically fortified both my frontend and backend development skills, all while confronting challenging assessments that demanded a mastery of object-oriented principles. The assessments covered a diverse spectrum of technologies including JavaScript, React, Node.js, SQL, arrays, Python, Flask, and an array of data structures. Each section was meticulously designed to evaluate my proficiency in the respective domain. This extensive experience has not only enriched my technical abilities but also equipped me with a versatile skill set to tackle a wide range of development challenges.",
+      " Completed Software Engineering (Full Stack) program at Springboard where I learnt JavaScript and Python and was actively involved in code reviews and built several Full Stack applications using React.js at Frontend and Node-based API for backend. ",
+    color: "#E4DFDF",
+    image: star,
   },
+
   {
     date: "July 2023 - August 2023",
     event:

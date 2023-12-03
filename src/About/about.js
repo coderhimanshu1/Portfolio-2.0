@@ -4,6 +4,7 @@ import profileImage from "../static/images/himanshu.jpg";
 import Title from "../common/title";
 import TimelineData from "./timelineData";
 import Box from "./box";
+import pathosBadge from "../static/icons/Pathos-small.PNG";
 
 const AboutPage = () => {
   return (
@@ -14,12 +15,10 @@ const AboutPage = () => {
           <img src={profileImage} alt="Profile" className="about-image" />
         </div>
         <div className="about-text">
-          <p>
-            Hello, My Name is <br />
-            <b>Himanshu Kumar</b>
-            <hr />
-            <p>Full Stack engineer</p>
-          </p>
+          <p>Hello, My Name is</p>
+          <b>Himanshu Kumar</b>
+          <hr />
+          <p>Full Stack engineer</p>
         </div>
         <Box
           header="About Me"
@@ -31,30 +30,28 @@ const AboutPage = () => {
           Technology Degree."
           color={"#F9EFE3"}
         />
+        <Box
+          header="Recent Updates"
+          text="Won Springboard Hackathon: Proposed original idea to build AI-powered platform aiming to boost empathy and emotional intelligence in remote workplace environments."
+          color="#E8E5CF"
+          image={pathosBadge}
+        />
+        <Box
+          header="How it Sparked?"
+          text="During my time working on Wordpress frontend for my food blog, I got interested in HTML, CSS, and JavaScript. That's where I found my passion for development and made a decision to switch my career and enroll in a 9-month intensive Full-stack software engineering boot camp at Springboard."
+          color={"#F8FFF2"}
+        />
 
-        <p>
-          During my time working on Wordpress frontend for my food blog, I got
-          interested in HTML, CSS, and JavaScript. That's where I found my
-          passion for development and made a decision to switch my career and
-          enroll in a 9-month intensive Full-stack software engineering boot
-          camp at Springboard, where I have worked with industry experts to work
-          on my skills.
-        </p>
-
-        <p>
-          My recent project was a full-stack web app where I built a node-based
-          API and the front end was react. My tech stack includes Python,
-          JavaScript, PostgreSQL, React, Flask, Node, Express, and more. In
-          addition to my technical skills, I believe my strength lies in working
-          on driving projects independently while collaborating with diverse
-          teams. One of the interesting facts is that I love to cook.
-        </p>
         <div className="timeline">
           <h3>My Story</h3>
           {TimelineData.map((item, index) => (
             <div className="timeline-item" key={index}>
-              <div className="timeline-date">{item.date}</div>
-              <div className="timeline-content">{item.event}</div>
+              <Box
+                header={item.date}
+                text={item.event}
+                color={item.color}
+                image={item.image}
+              />
             </div>
           ))}
         </div>

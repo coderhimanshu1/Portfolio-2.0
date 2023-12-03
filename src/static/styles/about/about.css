@@ -5,7 +5,6 @@
     align-items: center;
     margin: 5% auto;
     padding: 20px;
-    /* background-color: #f7f4e3; */
   }
 
   .about-image-container {
@@ -19,12 +18,23 @@
     width: 80%;
   }
 
-  .about-page h1 {
-    font-size: 180%;
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
   }
 
-  .about-page p {
-    font-size: 120%;
+  .about-text p,
+  b {
+    font-size: 160%;
+    margin: 0;
+  }
+
+  .about-text hr {
+    border-top: 3px dotted #000;
+    border-bottom: none;
+    width: 110%;
   }
 
   .timeline {
