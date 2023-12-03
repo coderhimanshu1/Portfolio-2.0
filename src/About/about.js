@@ -9,8 +9,8 @@ const AboutPage = () => {
     <>
       <Title />
       <div className="about-page">
-        <div className="Home-image-container">
-          <img src={profileImage} alt="Profile" className="profile-image" />
+        <div className="about-image-container">
+          <img src={profileImage} alt="Profile" className="about-image" />
         </div>
         <h1>Hey, I'm Himanshu! </h1>
         <p>
