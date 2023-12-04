@@ -56,13 +56,22 @@
    ****************/
 
   .about-page {
-    height: auto;
+    margin: 2% auto;
+    padding: 20px;
   }
-  .about-header {
-    flex-wrap: wrap;
+
+  .about-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3% auto;
+    margin-top: 1%;
   }
 
   .about-image {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 6px solid #f7bf3e;
     width: 30%;
   }
 
@@ -72,6 +81,95 @@
     justify-content: center;
     margin: 5%;
   }
+
+  .about-text p,
+  b {
+    font-size: 220%;
+    margin: 0;
+  }
+
+  .about-text hr {
+    border-top: 3px dotted #000;
+    border-bottom: none;
+    width: 110%;
+  }
+
+  .about-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .timeline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+
+  .timeline-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .timeline-item {
+    margin: 15px;
+  }
+
+  /*****************
+  About box styles
+   *****************/
+  .box {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+  }
+
+  .box h3 {
+    font-size: 160%;
+    margin-top: 1%;
+    margin: 0;
+  }
+
+  .box p {
+    font-size: 116%;
+    line-height: 140%;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .box-icon {
+    margin-left: 80%;
+  }
+
+  .box-image {
+    width: 90%;
+    height: 90%;
+    align-self: center;
+  }
+
+  .box a {
+    text-decoration: dotted underline;
+    font-size: 18px;
+    color: rgb(0, 0, 198);
+    padding: 2% 0;
+  }
+
+  .box a:hover {
+    text-decoration: dashed underline;
+    color: rgb(7, 7, 108);
+    font-weight: bold;
+  }
+
   /*****************
    Navbar styles
    ****************/
