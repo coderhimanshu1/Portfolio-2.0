@@ -5,6 +5,7 @@ import screen from "../static/icons/screen.png";
 import codeReview from "../static/icons/codeReview.png";
 import assessment from "../static/icons/assessment.png";
 import essential from "../static/icons/essential.png";
+import start from "../static/icons/start.png";
 
 const TimelineData = [
   {
@@ -33,6 +34,10 @@ const TimelineData = [
   },
 
   {
+    image: screen,
+    color: "#070B0D",
+  },
+  {
     date: "July 2023 - August 2023",
     event:
       "Built Full Stack app: Remplr, Meal planner platform to help nutritionists serve their clients efficiently using React for Frontend and node-based API for backend. Went into planning achitecture and database schema design to better plan the project.",
@@ -40,9 +45,10 @@ const TimelineData = [
     projectLink: "https://himanshu.dev/projects/remplr",
     linkText: "Checkout Project:Remplr 2.0",
   },
+
   {
-    image: screen,
     color: "#070B0D",
+    image: codeReview,
   },
   {
     event:
@@ -50,10 +56,6 @@ const TimelineData = [
     color: "#F8FFF2",
   },
 
-  {
-    color: "#070B0D",
-    image: codeReview,
-  },
   {
     date: "April 2023 - May 2023",
     event:
@@ -107,6 +109,10 @@ const TimelineData = [
     event:
       "Over the years (2016-2022), I worked on buidling front-end using WordPress and designed a user friendly food showcase website bringing 10% more visitors and 15% more page views each month. This experience made me really interested in web development.",
     color: "#F9EFE3",
+  },
+  {
+    color: "#070B0D",
+    image: start,
   },
 ];
 

@@ -50,17 +50,15 @@ const AboutPage = () => {
         </div>
         <div className="timeline">
           {TimelineData.map((item, index) => (
-            <div className="timeline-item" key={index}>
-              <Box
-                header={item.date}
-                text={item.event}
-                color={item.color}
-                image={item.image}
-                icon={item.icon}
-                projectLink={item.projectLink}
-                linkText={item.linkText}
-              />
-            </div>
+            <Box
+              header={item.date}
+              text={item.event}
+              color={item.color}
+              image={item.image}
+              icon={item.icon}
+              projectLink={item.projectLink}
+              linkText={item.linkText}
+            />
           ))}
         </div>
       </div>
