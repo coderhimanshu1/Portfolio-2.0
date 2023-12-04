@@ -52,6 +52,8 @@ const AboutPage = () => {
                 color={item.color}
                 image={item.image}
                 icon={item.icon}
+                projectLink={item.projectLink}
+                linkText={item.linkText}
               />
             </div>
           ))}
