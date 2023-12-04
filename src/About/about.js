@@ -3,49 +3,62 @@ import "../static/styles/about/about.css";
 import profileImage from "../static/images/himanshu.jpg";
 import Title from "../common/title";
 import TimelineData from "./timelineData";
+import Box from "./box";
+import pathosBadge from "../static/icons/Pathos-small.PNG";
+import story from "../static/icons/story.png";
 
 const AboutPage = () => {
   return (
     <>
       <Title />
       <div className="about-page">
-        <div className="Home-image-container">
-          <img src={profileImage} alt="Profile" className="profile-image" />
+        <div className="about-image-container">
+          <img src={profileImage} alt="Profile" className="about-image" />
+          <div className="about-text">
+            <p>Hello, My Name is</p>
+            <b>Himanshu Kumar</b>
+            <hr />
+            <p>Full Stack engineer</p>
+          </div>
         </div>
-        <h1>Hey, I'm Himanshu! </h1>
-        <p>
-          I'm a Full Stack Engineer based in Vancouver who enjoys building great
+
+        <div className="about-header">
+          <Box
+            header="About Me"
+            text="I'm a Full Stack Engineer based in Vancouver who enjoys building great
           software with a user-centric approach. I recently graduated from
           Springboard's Software Engineering (Full Stack) program. Before the
           Software Engineering pivot, I spent 7+ years working in leadership +
           System Admin roles in the IT industry and have a Bachelor of
-          Technology Degree.
-        </p>
-
-        <p>
-          During my time working on Wordpress frontend for my food blog, I got
-          interested in HTML, CSS, and JavaScript. That's where I found my
-          passion for development and made a decision to switch my career and
-          enroll in a 9-month intensive Full-stack software engineering boot
-          camp at Springboard, where I have worked with industry experts to work
-          on my skills.
-        </p>
-
-        <p>
-          My recent project was a full-stack web app where I built a node-based
-          API and the front end was react. My tech stack includes Python,
-          JavaScript, PostgreSQL, React, Flask, Node, Express, and more. In
-          addition to my technical skills, I believe my strength lies in working
-          on driving projects independently while collaborating with diverse
-          teams. One of the interesting facts is that I love to cook.
-        </p>
+          Technology Degree."
+            color={"#F9EFE3"}
+          />
+          <Box
+            header="Recent Updates"
+            text="Won Springboard Hackathon: Proposed original idea to build AI-powered platform aiming to boost empathy and emotional intelligence in remote workplace environments."
+            color="#E8E5CF"
+            icon={pathosBadge}
+          />
+          <Box
+            header="How it Sparked?"
+            text="During my time working on Wordpress frontend for my food blog, I got interested in HTML, CSS, and JavaScript. That's where I found my passion for development and made a decision to switch my career and enroll in a 9-month intensive Full-stack software engineering boot camp at Springboard."
+            color={"#F8FFF2"}
+          />
+        </div>
+        <div className="timeline-image">
+          <img src={story} alt="story logo" />
+        </div>
         <div className="timeline">
-          <h3>My Story</h3>
           {TimelineData.map((item, index) => (
-            <div className="timeline-item" key={index}>
-              <div className="timeline-date">{item.date}</div>
-              <div className="timeline-content">{item.event}</div>
-            </div>
+            <Box
+              header={item.date}
+              text={item.event}
+              color={item.color}
+              image={item.image}
+              icon={item.icon}
+              projectLink={item.projectLink}
+              linkText={item.linkText}
+            />
           ))}
         </div>
       </div>
