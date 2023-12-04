@@ -5,6 +5,7 @@ import Title from "../common/title";
 import TimelineData from "./timelineData";
 import Box from "./box";
 import pathosBadge from "../static/icons/Pathos-small.PNG";
+import story from "../static/icons/story.png";
 
 const AboutPage = () => {
   return (
@@ -41,9 +42,10 @@ const AboutPage = () => {
           text="During my time working on Wordpress frontend for my food blog, I got interested in HTML, CSS, and JavaScript. That's where I found my passion for development and made a decision to switch my career and enroll in a 9-month intensive Full-stack software engineering boot camp at Springboard."
           color={"#F8FFF2"}
         />
-
+        <div className="timeline-image">
+          <img src={story} alt="story logo" />
+        </div>
         <div className="timeline">
-          <h3>My Story</h3>
           {TimelineData.map((item, index) => (
             <div className="timeline-item" key={index}>
               <Box

@@ -5,8 +5,8 @@ const Box = ({ header, text, color, icon, image, projectLink, linkText }) => {
     <div className="box" style={{ backgroundColor: color }}>
       {header && <h3>{header}</h3>}
       {text && <p>{text}</p>}
-      {icon && <img src={icon} alt="image" className="box-icon" />}
-      {image && <img src={image} alt="image" className="box-image" />}
+      {icon && <img src={icon} alt="milestone icon" className="box-icon" />}
+      {image && <img src={image} alt="timeline event" className="box-image" />}
       {projectLink && (
         <a href={projectLink} target="_blank" rel="noopener noreferrer">
           {linkText}

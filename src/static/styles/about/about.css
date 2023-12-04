@@ -39,43 +39,15 @@
 
   .timeline {
     position: relative;
-    margin-top: 20px;
     margin-bottom: 40px;
   }
 
-  .timeline h3 {
-    text-align: center;
-    font-size: 160%;
+  .timeline-image {
+    margin-top: 50px;
+    margin-bottom: 0;
   }
 
   .timeline-item {
-    display: flex;
-    margin-bottom: 30px;
-    position: relative;
-  }
-
-  /* .timeline-dot {
-  width: 15px;
-  height: 15px;
-  background-color: #000;
-  border-radius: 50%;
-  margin-right: 10px;
-} */
-
-  .timeline-date {
-    font-weight: bold;
-    margin-bottom: 5px;
-    font-size: 120%;
-    width: 40%;
-  }
-
-  .timeline-content {
-    max-width: 60%;
-    width: 120%;
-    font-size: 120%;
-  }
-
-  .timeline-content p {
-    margin: 0;
+    margin: 15px;
   }
 }

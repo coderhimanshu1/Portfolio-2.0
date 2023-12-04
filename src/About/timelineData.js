@@ -10,7 +10,7 @@ const TimelineData = [
   {
     date: "October 2023",
     event:
-      " Completed Software Engineering (Full Stack) program at Springboard where I learnt JavaScript, Python and more, Data Structures and was actively involved in code reviews and built several Full Stack applications using React.js at Frontend and Node-based API for backend. ",
+      " Completed Software Engineering (Full Stack) program at Springboard where was actively involved in code reviews and built several Full Stack applications using React.js at Frontend and Node-based API for backend and more. ",
     color: "#E4DFDF",
     icon: star,
   },

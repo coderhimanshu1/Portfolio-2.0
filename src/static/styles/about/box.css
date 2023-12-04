@@ -30,3 +30,16 @@
   height: 140%;
   align-self: center;
 }
+
+.box a {
+  text-decoration: dotted underline;
+  font-size: 18px;
+  color: rgb(0, 0, 198);
+  padding: 2% 0;
+}
+
+.box a:hover {
+  text-decoration: dashed underline;
+  color: rgb(7, 7, 108);
+  font-weight: bold;
+}
