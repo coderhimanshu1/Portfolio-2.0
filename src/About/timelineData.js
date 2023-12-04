@@ -20,10 +20,6 @@ const TimelineData = [
     color: "#070B0D",
   },
   {
-    image: coder1,
-    color: "#070B0D",
-  },
-  {
     date: "September 2023 - October 2023",
     event:
       " Won Springboard Hackathon where I worked in a team to work on a original idea to build AI-powered platform aiming to boost empathy and emotional intelligence in remote workplace environments, which got selected out of hundreds of ideas. ",
@@ -31,6 +27,11 @@ const TimelineData = [
     projectLink: "https://himanshu.dev/projects/pathos",
     linkText: "Checkout Project: Pathos",
   },
+  {
+    image: coder1,
+    color: "#070B0D",
+  },
+
   {
     date: "July 2023 - August 2023",
     event:
@@ -48,6 +49,11 @@ const TimelineData = [
       "Expanded my portfolio with a series of cumulative projects, each utilizing a diverse range of technology stacks. Throughout this process, I sought feedback from on-demand mentors to refine my skills and enhance the quality of my code through comprehensive code reviews.",
     color: "#F8FFF2",
   },
+
+  {
+    color: "#070B0D",
+    image: codeReview,
+  },
   {
     date: "April 2023 - May 2023",
     event:
@@ -55,10 +61,6 @@ const TimelineData = [
     color: "#F9EFE3",
     projectLink: "https://himanshu.dev/projects/remplr-veg",
     linkText: "Checkout Project: Remplr 1.0",
-  },
-  {
-    color: "#070B0D",
-    image: codeReview,
   },
   {
     event:
@@ -84,14 +86,14 @@ const TimelineData = [
   },
 
   {
+    color: "#070B0D",
+    image: essential,
+  },
+  {
     date: "January 2022 - July 2022",
     event:
       "Built various projects based on JavaScript, including a multipage portfolio website, a landing page, and several mini-projects, to refine my frontend skills and deepen my understanding of JavaScript.",
     color: "#E8E5CF",
-  },
-  {
-    color: "#070B0D",
-    image: essential,
   },
   {
     date: "November 2021",

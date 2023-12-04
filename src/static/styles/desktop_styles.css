@@ -56,61 +56,74 @@
    ****************/
 
   .about-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 80%;
-    margin: 5% auto;
+    margin: 2% auto;
     padding: 20px;
-    background-color: #f7f4e3;
-    border: 5px solid #f7bf3e;
   }
 
-  .about-page p {
-    font-size: 120%;
+  .about-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3% auto;
+    margin-top: 1%;
+  }
+
+  .about-image {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 6px solid #f7bf3e;
+    width: 20%;
+  }
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+  }
+
+  .about-text p {
+    color: #1c1607;
+  }
+
+  .about-text p,
+  b {
+    font-size: 220%;
+    margin: 0;
+  }
+
+  .about-text hr {
+    border-top: 3px dotted #000;
+    border-bottom: none;
+    width: 110%;
+  }
+
+  .about-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
   }
 
   .timeline {
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    width: 90%;
   }
 
-  .timeline h3 {
-    text-align: center;
-    font-size: 160%;
+  .timeline-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 0;
   }
 
   .timeline-item {
-    display: flex;
-    margin-bottom: 30px;
-    position: relative;
-  }
-
-  /* .timeline-dot {
-  width: 15px;
-  height: 15px;
-  background-color: #000;
-  border-radius: 50%;
-  margin-right: 10px;
-} */
-
-  .timeline-date {
-    font-weight: bold;
-    margin-bottom: 5px;
-    font-size: 135%;
-    width: 30%;
-  }
-
-  .timeline-content {
-    max-width: 70%;
-    width: 120%;
-    font-size: 130%;
-    line-height: 120%;
-  }
-
-  .timeline-content p {
-    margin: 0;
+    margin: 15px;
   }
   /*****************
    Navbar styles
