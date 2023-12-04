@@ -21,7 +21,7 @@ const TimelineData = [
     color: "#070B0D",
   },
   {
-    date: "September 2023 - October 2023",
+    date: "Sept 2023 - Oct 2023",
     event:
       " Won Springboard Hackathon where I worked in a team to work on a original idea to build AI-powered platform aiming to boost empathy and emotional intelligence in remote workplace environments, which got selected out of hundreds of ideas. ",
     color: "#F9EFE3",
