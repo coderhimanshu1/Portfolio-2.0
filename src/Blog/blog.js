@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import $ from "jquery";
 import "../static/styles/blog/blog.css";
 import Title from "../common/title";
 import Loading from "../common/loading";
@@ -8,32 +9,28 @@ const Blog = ({ username }) => {
   const [selectedPost, setSelectedPost] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  const RSS_URL = `https://medium.com/feed/@${username}`;
-  const API_URL = `https://api.rss2json.com/v1/api.json?rss_url=${RSS_URL}`;
-
   useEffect(() => {
-    fetch(API_URL)
-      .then((response) => response.json())
-      .then((data) => {
-        setPosts(data.items);
+    $.ajax({
+      url: "https://api.rss2json.com/v1/api.json",
+      method: "GET",
+      dataType: "json",
+      data: {
+        rss_url: `https://medium.com/feed/@${username}`,
+        api_key: process.env.api_key,
+      },
+    })
+      .done(function (response) {
+        if (response.status !== "ok") {
+          throw new Error(response.message);
+        }
+        setPosts(response.items);
         setIsLoading(false);
       })
-      .catch((error) => {
+      .fail(function (error) {
         console.error("Error fetching Medium posts:", error);
         setIsLoading(false);
       });
-  }, [API_URL]);
-
-  useEffect(() => {
-    // Get all anchor tags inside the .Blog-overlay-content
-    const links = document.querySelectorAll(".Blog-overlay-content a");
-
-    // Iterate through each link and set its target attribute
-    links.forEach((link) => {
-      link.setAttribute("target", "_blank");
-      link.setAttribute("rel", "noopener noreferrer"); // This is for security reasons
-    });
-  }, [selectedPost]); // Re-run the effect whenever selectedPost changes
+  }, [username]);
 
   return (
     <>
