@@ -25,7 +25,7 @@ const AboutPage = () => {
         <div className="about-header">
           <Box
             header="About Me"
-            text="I'm a Full Stack Engineer based in Vancouver who enjoys building great
+            text="I'm a Full Stack Engineer based in Vancouver who enjoys building beautiful
           software with a user-centric approach. I recently graduated from
           Springboard's Software Engineering (Full Stack) program. Before the
           Software Engineering pivot, I spent 7+ years working in leadership +

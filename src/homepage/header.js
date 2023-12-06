@@ -29,11 +29,11 @@ const Header = ({ handleButtonClick }) => {
         <div className="Home-bio">
           <p>
             I'm a Full Stack Engineer based in Vancouver who enjoys building
-            great software with a user-centric approach. I recently graduated
-            from Springboard's Software Engineering (Full Stack) program. Before
-            the Software Engineering pivot, I spent 7+ years working in
-            leadership + System Admin roles in the IT industry and have a
-            Bachelor of Technology Degree.
+            beautiful software with a user-centric approach. I recently
+            graduated from Springboard's Software Engineering (Full Stack)
+            program. Before the Software Engineering pivot, I spent 7+ years
+            working in leadership + System Admin roles in the IT industry and
+            have a Bachelor of Technology Degree.
           </p>
 
           <div className="Home-bio-img">
