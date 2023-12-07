@@ -4,7 +4,8 @@ import Home from "./homepage/home";
 import Navbar from "./common/navBar";
 import ProjectPageContainer from "./project/projectPageContainer";
 import AboutPage from "./About/about";
-import Blog from "./Blog/blog";
+// import Blog from "./Blog/blog";
+import Maintenance from "./Maintenance/maintenance";
 import Footer from "./common/footer";
 import Work from "./homepage/work";
 
@@ -23,7 +24,8 @@ const RouteContainer = () => {
 
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projects" element={<Work />} />
-        <Route path="/blog" element={<Blog username="himanshu-dev" />} />
+        {/* <Route path="/blog" element={<Blog username="himanshu-dev" />} /> */}
+        <Route path="/blog" element={<Maintenance />} />
         {/* temporary route for project | remove by December 30th */}
         <Route path="/:projectKey" element={<ProjectPageContainer />} />
         <Route

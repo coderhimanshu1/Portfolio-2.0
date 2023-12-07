@@ -1,0 +1,28 @@
+.maintenance-container {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.maintenance-container h1 {
+  margin-bottom: 20px;
+}
+
+.maintenance-container p {
+  margin-bottom: 10px;
+  width: 230px;
+}
+
+.maintenance-container a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 170%;
+}
+
+.maintenance-container a:hover {
+  text-decoration: underline;
+}
