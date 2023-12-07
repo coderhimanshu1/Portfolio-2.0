@@ -44,7 +44,7 @@ const Footer = ({ footerRef }) => {
 
           <div>
             <a
-              href="https://coderhimanshu.medium.com/"
+              href="https://himanshu-dev.medium.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
