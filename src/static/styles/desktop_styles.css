@@ -399,7 +399,7 @@
 
   .project-description-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .work-badge {
