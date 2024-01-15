@@ -31,7 +31,7 @@ const Header = ({ handleButtonClick }) => {
             I'm a Full Stack Engineer based in Vancouver who enjoys building
             beautiful software with a user-centric approach. I recently
             graduated from Springboard's Software Engineering (Full Stack)
-            program. Before the Software Engineering pivot, I spent 7+ years
+            program. I have spent over 2 years on Frontend and 1+ year working on Full-stack development. Before the Software Engineering pivot, I spent 7+ years
             working in leadership + System Admin roles in the IT industry and
             have a Bachelor of Technology Degree.
           </p>

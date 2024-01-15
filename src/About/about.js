@@ -25,12 +25,11 @@ const AboutPage = () => {
         <div className="about-header">
           <Box
             header="About Me"
-            text="I'm a Full Stack Engineer based in Vancouver who enjoys building beautiful
-          software with a user-centric approach. I recently graduated from
-          Springboard's Software Engineering (Full Stack) program. Before the
-          Software Engineering pivot, I spent 7+ years working in leadership +
-          System Admin roles in the IT industry and have a Bachelor of
-          Technology Degree."
+            text="Full Stack Engineer based in Vancouver who enjoys building
+            beautiful software. I recently
+            graduated from Springboard's Software Engineering (Full Stack)
+            program. I have spent over 2 years on Frontend and 1+ year on Full-stack. Before the Software Engineering pivot, I spent 8 years
+            working in leadership + System Admin roles in the IT industry."
             color={"#F9EFE3"}
           />
           <Box
