@@ -1,13 +1,23 @@
 import star from "../static/icons/star.png";
 import coder from "../static/icons/coder.png";
 import coder1 from "../static/icons/coder1.png";
-import screen from "../static/icons/screen.png";
+// import screen from "../static/icons/screen.png";
 import codeReview from "../static/icons/codeReview.png";
 import assessment from "../static/icons/assessment.png";
 import essential from "../static/icons/essential.png";
 import start from "../static/icons/start.png";
 
 const TimelineData = [
+  {
+    date: "December 2023",
+    event:
+      "Started my first contract role as a Software Engineer at EM Marketing, where I am actively involved in code reviews and building e-commerce platforms with Next.js, Sanity.io, and Shopify. I'm working passionately on React-based projects, cross-functional collaboration, agile methodologies, and staying updated with the latest software trends.",
+    color: "#F9EFE3",
+  },
+  {
+    image: coder,
+    color: "#070B0D",
+  },
   {
     date: "October 2023",
     event:
@@ -16,10 +26,7 @@ const TimelineData = [
     icon: star,
   },
 
-  {
-    image: coder,
-    color: "#070B0D",
-  },
+  
   {
     date: "Sept 2023 - Oct 2023",
     event:
@@ -27,16 +34,17 @@ const TimelineData = [
     color: "#F9EFE3",
     projectLink: "https://himanshu.dev/projects/pathos",
     linkText: "Checkout Project: Pathos",
+    
   },
   {
     image: coder1,
     color: "#070B0D",
   },
 
-  {
-    image: screen,
-    color: "#070B0D",
-  },
+  // {
+  //   image: screen,
+  //   color: "#070B0D",
+  // },
   {
     date: "July 2023 - August 2023",
     event:
