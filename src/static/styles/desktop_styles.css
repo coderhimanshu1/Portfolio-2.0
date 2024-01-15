@@ -339,12 +339,13 @@
     flex-wrap: wrap;
     margin: 35px auto;
     padding: 6% 0;
+    width: 70%;
     padding-bottom: 2%;
   }
 
   .icon {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     width: 20%;
   }
 

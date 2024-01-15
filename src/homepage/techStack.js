@@ -5,6 +5,7 @@ import "../static/styles/common/common.css";
 
 import javascript from "../static/icons/js.png";
 import react from "../static/icons/react.svg";
+import next from "../static/icons/next.png";
 import python from "../static/icons/python.png";
 import node from "../static/icons/nodejs.png";
 import flask from "../static/icons/flask.png";
@@ -16,13 +17,15 @@ import Title from "../common/title";
 
 const TechStack = ({ techStackRef }) => {
   const icons = [
-    { name: javascript, text: "JavaScript" },
+    { name: next, text: "Next.js" },
     { name: react, text: "React.js" },
+    { name: javascript, text: "JavaScript" },
     { name: python, text: "Python" },
     { name: node, text: "Node.js" },
     { name: flask, text: "Flask" },
     { name: postgresql, text: "PostgreSQL" },
     { name: jquery, text: "jQuery" },
+
     { name: restAPI, text: "RESTful API" },
   ];
 
