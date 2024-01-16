@@ -16,8 +16,6 @@ const Blog = ({ username }) => {
     return imgTag ? imgTag.src : null; // Return the src if an img tag is found, otherwise null
   }
 
-  console.log('posts', posts);
-
   useEffect(() => {
     $.ajax({
       url: "https://api.rss2json.com/v1/api.json",
