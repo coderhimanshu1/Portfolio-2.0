@@ -9,6 +9,15 @@ const Blog = ({ username }) => {
   const [selectedPost, setSelectedPost] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
+  const extractImageUrlFromContent = (content) => {
+    const parser = new DOMParser();
+    const htmlDoc = parser.parseFromString(content, 'text/html');
+    const imgTag = htmlDoc.querySelector('figure img');
+    return imgTag ? imgTag.src : null; // Return the src if an img tag is found, otherwise null
+  }
+
+  console.log('posts', posts);
+
   useEffect(() => {
     $.ajax({
       url: "https://api.rss2json.com/v1/api.json",
@@ -40,20 +49,25 @@ const Blog = ({ username }) => {
           <Loading />
         ) : (
           <div className="Blog-grid">
-            {posts.map((post) => (
-              <div
-                key={post.guid}
-                className="Blog-card"
-                onClick={() => setSelectedPost(post)}
-              >
-                <img src={post.thumbnail} alt={post.title} />
-                <small>By:{post.author}</small>
-                <h3>{post.title}</h3>
-                <span className="Blog-card-bottom">
-                  <button className="Blog-button">Read More</button>
-                </span>
-              </div>
-            ))}
+            {
+  posts.map((post) => {
+    const imageUrl = extractImageUrlFromContent(post.content);
+    return (
+      <div
+        key={post.guid}
+        className="Blog-card"
+        onClick={() => setSelectedPost(post)}
+      >
+        <img src={imageUrl} alt={post.title} />
+        <small>By:{post.author}</small>
+        <h3>{post.title}</h3>
+        <span className="Blog-card-bottom">
+          <button className="Blog-button">Read More</button>
+        </span>
+      </div>
+    );
+  })
+}
           </div>
         )}
         {selectedPost && (
