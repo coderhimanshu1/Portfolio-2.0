@@ -13,7 +13,7 @@ const Header = ({ handleButtonClick }) => {
 
   return (
     <div className="Header">
-      <Title />
+      <Title titleText="Making an Impact - One Step at a Time!" />
       <div className="Header-components">
         <div className="Header-profile">
           <h1 className="name">Hey! I'm Himanshu Kumar</h1>
