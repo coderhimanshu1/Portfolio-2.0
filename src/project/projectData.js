@@ -4,6 +4,7 @@ import RemplrVegData from "./projectData/remplrVegData";
 import CurrencyConverter from "./projectData/currencyConverter";
 import Jeopardy from "./projectData/jeopardy";
 import Pathos from "./projectData/pathosData";
+import EliteKitchenFindsData from "./projectData/EliteKitchenFindsData";
 
 const ProjectData = {
   remplr: RemplrData,
@@ -12,6 +13,7 @@ const ProjectData = {
   "currency-converter": CurrencyConverter,
   jeopardy: Jeopardy,
   pathos: Pathos,
+  elitekitchenfinds: EliteKitchenFindsData,
 };
 
 export default ProjectData;

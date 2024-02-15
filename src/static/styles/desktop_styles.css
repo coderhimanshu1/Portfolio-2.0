@@ -332,7 +332,6 @@
     font-size: 160%;
   }
 
-
   .icons-container {
     display: flex;
     flex-direction: row;
@@ -350,19 +349,18 @@
     align-items: center;
     margin: 0 50px;
     padding: 1%;
-    margin-bottom: 50px ;
+    margin-bottom: 50px;
     width: 10%;
     border: 3px solid transparent;
     transition: transform 0.3s ease, background-color 0.3s ease;
   }
 
-
   .icon:hover {
     background-color: #ffe8a9;
     transform: scale(1.05);
-    border:  3px solid black;
+    border: 3px solid black;
     border-radius: 20px;
-      }
+  }
 
   .icon-image {
     width: 70px;

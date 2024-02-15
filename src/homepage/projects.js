@@ -4,11 +4,21 @@ import jeopardy from "../static/projects/jeopardy.gif";
 import remplr2 from "../static/projects/remplr2.gif";
 import remplr1 from "../static/projects/remplr1.gif";
 import pathos from "../static/projects/pathos.gif";
+import eliteKitchenFindsImage from "../static/projects/ElitekitchenFinds.gif";
 import pathosBadge from "../static/icons/Pathos-badge.PNG";
 
 const Projects = [
   {
     id: 1,
+    title: "Elite Kitchen Finds | Curated Kitchenware E-commerce",
+    linkData: "elitekitchenfinds",
+    description:
+      "Elite Kitchen Finds is a bespoke e-commerce platform designed and developed for a client, featuring a curated selection of premium kitchen essentials. ",
+    image: eliteKitchenFindsImage,
+    backgroundColor: "#F5F4F4",
+  },
+  {
+    id: 2,
     title: "Pathos | AI-powered Empathy enhancer",
     linkData: "pathos",
     description:
@@ -18,8 +28,8 @@ const Projects = [
     backgroundColor: "#F7F0F9",
   },
   {
-    id: 2,
-    title: "Remplr | Meal Planner Platform",
+    id: 3,
+    title: "Remplr 2.0 | Meal Planner Platform",
     linkData: "remplr",
     description:
       "Meal Planner platform tailored for nutritionists, offering features like user authentication, meal planning, and in-depth recipe information.",
@@ -27,7 +37,7 @@ const Projects = [
     backgroundColor: "#ECEFED",
   },
   {
-    id: 3,
+    id: 4,
     title: "Job Findr | Job Search Platform",
     linkData: "Job-Findr",
     description:
@@ -36,7 +46,7 @@ const Projects = [
     backgroundColor: "#FFFAE6",
   },
   {
-    id: 4,
+    id: 5,
     title: "Remplr | Vegetarian focussed meal planner",
     linkData: "remplr-veg",
     description:
@@ -45,7 +55,7 @@ const Projects = [
     backgroundColor: "#FFF6F3",
   },
   {
-    id: 5,
+    id: 6,
     title: "Currency Converter",
     linkData: "currency-converter",
     description:
@@ -54,7 +64,7 @@ const Projects = [
     backgroundColor: "#F2F4E7",
   },
   {
-    id: 6,
+    id: 7,
     title: "Jeopardy Game",
     linkData: "jeopardy",
     description:
