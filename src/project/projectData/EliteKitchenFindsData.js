@@ -9,7 +9,7 @@ const EliteKitchenFindsData = {
   backgroundImage: eliteKitchenFindsImage,
   description:
     "Elite Kitchen Finds, meticulously designed and developed for a client, presents a handpicked collection of superior kitchen essentials. This e-commerce platform is crafted to provide a premier destination for high-quality kitchenware, offering a seamless shopping experience with a curated selection of top-rated products.",
-  demoVideo: "",
+  demoVideo: "https://youtu.be/MMCMi9ZtZEA",
   github: "",
   liveLink: "https://elitekitchenfinds.com/",
   //   API: "",
