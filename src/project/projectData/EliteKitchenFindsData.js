@@ -8,7 +8,7 @@ const EliteKitchenFindsData = {
   backgroundColor: "#ECEFED",
   backgroundImage: eliteKitchenFindsImage,
   description:
-    "A premier destination for high-quality kitchenware, offering a seamless shopping experience with a curated selection of top-rated products.",
+    "Elite Kitchen Finds, meticulously designed and developed for a client, presents a handpicked collection of superior kitchen essentials. This e-commerce platform is crafted to provide a premier destination for high-quality kitchenware, offering a seamless shopping experience with a curated selection of top-rated products.",
   demoVideo: "",
   github: "",
   liveLink: "https://elitekitchenfinds.com/",
