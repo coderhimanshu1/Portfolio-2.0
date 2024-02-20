@@ -1,6 +1,6 @@
 # Development Guide
 
-Ilcome to the development guide for `Himanshu-dot-dev`. Here, you'll find everything you need to get started with contributing to this project.
+Welcome to the development guide for `Himanshu-dot-dev`. Here, you'll find everything you need to get started with contributing to this project.
 
 ## Getting Started
 
