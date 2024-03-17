@@ -10,7 +10,7 @@ const RemplrData = {
   demoVideo: "https://www.youtube.com/embed/8b2YMKrCO0w?si=hyAOQjOHRTwCUEw8",
   github: "https://github.com/coderhimanshu1/REMPLR-2.0",
   liveLink: "https://remplr.com/",
-  API: "https://coderhimanshu1.github.io/Remplr-backend/",
+  API: "https://himanshuk-dev.github.io/Remplr-backend/",
   role: "Full-stack Engineer",
   techStack: "React, Node.js, express.js, PostgreSQL, RESTful API",
   timeline: "July, 2023 - August, 2023",
