@@ -1,6 +1,6 @@
 // Header.js
 import profileImage from "../static/images/himanshu.jpg";
-import flower from "../static/images/flower.png";
+// import flower from "../static/images/flower.png";
 import React from "react";
 import "../static/styles/homepage/techStack.css";
 import Title from "../common/title";
@@ -13,7 +13,7 @@ const Header = ({ handleButtonClick }) => {
 
   return (
     <div className="Header">
-      <Title titleText="About" />
+      <Title />
       <div className="Header-components">
         <div className="Header-profile">
           <h1 className="name">Hey! I'm Himanshu Kumar</h1>
@@ -26,21 +26,26 @@ const Header = ({ handleButtonClick }) => {
             <br /> Software Engineer
           </h2>
         </div>
-        <div className="Home-bio">
-          <p>
-            I'm a Full Stack Engineer based in Vancouver who enjoys building
-            beautiful software with a user-centric approach. I recently
-            graduated from Springboard's Software Engineering (Full Stack)
-            program. I have spent over 2 years on Frontend and 1+ year working
-            on Full-stack development. Before the Software Engineering pivot, I
-            spent 7+ years working in leadership + System Admin roles in the IT
-            industry and have a Bachelor of Technology Degree.
-          </p>
 
-          <div className="Home-bio-img">
-            <img src={flower} alt="flower" />
+        <div className="Home-bio">
+          <div className="Home-bio-heading">
+            <p>About</p>
           </div>
-          {/* <Bubble text={currentActivity} /> */}
+          <div className="Home-bio-text">
+            <p>
+              I'm a Full Stack Engineer based in Vancouver who enjoys building
+              beautiful software with a user-centric approach. I recently
+              graduated from Springboard's Software Engineering (Full Stack)
+              program. I have spent over 2 years on Frontend and 1+ year working
+              on Full-stack development. Before the Software Engineering pivot,
+              I spent 7+ years working in leadership + System Admin roles in the
+              IT industry and have a Bachelor of Technology Degree.
+            </p>
+          </div>
+
+          {/* <div className="Home-bio-img">
+            <img src={flower} alt="flower" />
+          </div> */}
         </div>
       </div>
       <div className="button-container">

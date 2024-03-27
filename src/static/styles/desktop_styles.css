@@ -236,30 +236,59 @@
   .Header {
     text-align: center;
     height: fit-content;
-    /* border-radius: 30px; */
-    /* border: 20px solid #ccb222;
-    background-color: #f7f4e3; */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #edeae5;
+    padding: 2%;
+    margin: 0 10px;
   }
   .Header-components {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 1% 0;
+    margin-bottom: 4%;
   }
 
   .Header-profile {
     margin-top: 3%;
     width: 50%;
-    font-size: 120%;
+    font-size: 110%;
+    border-radius: 30px;
+    background-color: #ecc76f;
+    border: 4px solid black;
+    box-shadow: 6px 6px 1px #000;
+  }
+  .Home-bio-text,
+  .Home-bio-heading {
+    border-radius: 30px;
+    background-color: #fff;
+    border: 4px solid black;
+    box-shadow: 6px 6px 1px #000;
+  }
+
+  .Home-bio-heading {
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  .Home-bio-text {
+    height: 80%;
+    padding: 6% 3%;
+    text-align: left;
   }
 
   .Home-bio {
-    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 3%;
     padding: 0 3%;
-    text-align: center;
     line-height: 160%;
-    font-size: 140%;
-    width: 40%;
+    font-size: 130%;
+    width: 50%;
   }
 
   .Home-bio img {
@@ -274,7 +303,7 @@
 
   .profile-image {
     border-radius: 50%;
-    border: 8px solid #f7bf3e;
+    /* border: 8px solid #f7bf3e; */
   }
 
   .name {
