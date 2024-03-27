@@ -31,16 +31,21 @@ const TechStack = ({ techStackRef }) => {
 
   return (
     <div className="techStack" ref={techStackRef}>
-      <Title titleText="Tech Stack" />
-      <div className="icons-container">
-        {icons.map((icon, index) => (
-          <div className="icon" key={index}>
-            <img src={icon.name} alt={icon.name} className="icon-image" />
-            <div className="icon-text">{icon.text}</div>
-          </div>
-        ))}
+      <Title />
+      <div className="techStack-container">
+        <div className="techStack-heading">
+          <h1>Tech Stack</h1>
+        </div>
+        <div className="icons-container">
+          {icons.map((icon, index) => (
+            <div className="icon" key={index}>
+              <img src={icon.name} alt={icon.name} className="icon-image" />
+              <div className="icon-text">{icon.text}</div>
+            </div>
+          ))}
+        </div>
+        <p>and more...</p>
       </div>
-      <p>and more...</p>
     </div>
   );
 };
