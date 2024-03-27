@@ -10,33 +10,38 @@ const Work = () => {
 
   return (
     <div className="work" style={{ backgroundColor: bgColor }}>
-      <Title titleText="My Work" />
-      <div className="projects-container">
-        {Projects.map((project) => (
-          <Link to={`/projects/${project.linkData}`} key={project.id}>
-            <div
-              className="project"
-              style={{ backgroundColor: project.backgroundColor }}
-              onMouseEnter={() => setBgColor(project.backgroundColor)}
-              onMouseLeave={() => setBgColor("")}
-            >
-              <div className="project-description-container">
-                <div className="project-description">
-                  <h3>{project.title}</h3>
-                  <p>{project.description}</p>
+      <Title />
+      <div className="work-container">
+        <div className="work-heading">
+          <h1>My Work</h1>
+        </div>
+        <div className="projects-container">
+          {Projects.map((project) => (
+            <Link to={`/projects/${project.linkData}`} key={project.id}>
+              <div
+                className="project"
+                style={{ backgroundColor: project.backgroundColor }}
+                onMouseEnter={() => setBgColor(project.backgroundColor)}
+                onMouseLeave={() => setBgColor("")}
+              >
+                <div className="project-description-container">
+                  <div className="project-description">
+                    <h3>{project.title}</h3>
+                    <p>{project.description}</p>
+                  </div>
+                  {project.badge && (
+                    <img
+                      className="work-badge"
+                      src={project.badge}
+                      alt={project.title}
+                    />
+                  )}
                 </div>
-                {project.badge && (
-                  <img
-                    className="work-badge"
-                    src={project.badge}
-                    alt={project.title}
-                  />
-                )}
+                <img src={project.image} alt={project.title} />
               </div>
-              <img src={project.image} alt={project.title} />
-            </div>
-          </Link>
-        ))}
+            </Link>
+          ))}
+        </div>
       </div>
     </div>
   );

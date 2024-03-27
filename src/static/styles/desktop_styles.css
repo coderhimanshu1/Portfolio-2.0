@@ -185,9 +185,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 2% 1%;
+    margin: 1% 1%;
     max-width: 100%;
-    /* padding-top: 1%; */
     border-radius: 30px;
     background-color: #ecdee6;
     border: 4px solid black;
@@ -253,7 +252,7 @@
     border-top-right-radius: 30px;
     background-color: #edeae5;
     padding: 2%;
-    margin: 0 10px;
+    margin: 1%;
   }
   .Header-components {
     display: flex;
@@ -371,7 +370,7 @@
     border-top-right-radius: 30px;
     background-color: #b7cfff;
     padding: 2%;
-    margin: -2% 10px;
+    margin: 1% 1%;
   }
 
   .techStack-container {
@@ -435,6 +434,30 @@
   /*****************
    Work styles
    ****************/
+
+  .work {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #edeae5;
+    padding: 2%;
+    margin: 1%;
+  }
+
+  .work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-heading {
+    border-radius: 30px;
+    padding: 0 2%;
+    max-width: 50%;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
+  }
+
   .work a {
     text-decoration: none;
     color: black;
@@ -453,13 +476,14 @@
     text-align: center;
     border: 3px solid black;
     margin: 2%;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
   }
 
   .project:hover {
-    transform: scale(1.05);
+    border-radius: 0px;
   }
 
   .project p {
