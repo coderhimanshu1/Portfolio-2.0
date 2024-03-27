@@ -30,7 +30,7 @@ const TechStack = ({ techStackRef }) => {
   ];
 
   return (
-    <div className="techStack" ref={techStackRef}>
+    <div className="techStack section" ref={techStackRef}>
       <Title />
       <div className="container">
         <div className="heading">

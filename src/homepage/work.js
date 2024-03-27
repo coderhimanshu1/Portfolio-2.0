@@ -9,7 +9,7 @@ const Work = () => {
   const [bgColor, setBgColor] = useState("");
 
   return (
-    <div className="work" style={{ backgroundColor: bgColor }}>
+    <div className="work section" style={{ backgroundColor: bgColor }}>
       <Title />
       <div className="container">
         <div className="heading">

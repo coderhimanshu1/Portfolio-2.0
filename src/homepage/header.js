@@ -12,7 +12,7 @@ const Header = ({ handleButtonClick }) => {
   // );
 
   return (
-    <div className="Header">
+    <div className="Header section">
       <Title />
       <div className="Header-components">
         <div className="Header-profile">

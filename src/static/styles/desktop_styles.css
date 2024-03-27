@@ -5,6 +5,13 @@
    Common styles
    ****************/
 
+  .section {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 2%;
+    margin: 1%;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -264,12 +271,9 @@
   .Header {
     text-align: center;
     height: fit-content;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
     background-color: #edeae5;
-    padding: 2%;
-    margin: 1%;
   }
+
   .Header-components {
     display: flex;
     flex-direction: row;
@@ -382,11 +386,7 @@
    ****************/
   .techStack {
     text-align: center;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
     background-color: #b7cfff;
-    padding: 2%;
-    margin: 1% 1%;
   }
 
   .techStack p {
@@ -437,11 +437,7 @@
    ****************/
 
   .work {
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
     background-color: #edeae5;
-    padding: 2%;
-    margin: 1%;
   }
 
   .work a {
