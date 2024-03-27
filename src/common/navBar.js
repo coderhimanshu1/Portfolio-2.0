@@ -24,7 +24,7 @@ const Navbar = ({ handleContactClick }) => {
           Resume
         </a>
 
-        <span onClick={handleContactClick}>Contact</span>
+        <span onClick={handleContactClick}>Get In Touch</span>
       </div>
     </nav>
   );
