@@ -4,6 +4,22 @@
   /*****************
    Common styles
    ****************/
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading {
+    border-radius: 30px;
+    padding: 0 2%;
+    max-width: 50%;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
+  }
+
   .dots-container {
     display: flex;
     justify-content: space-between;
@@ -373,23 +389,8 @@
     margin: 1% 1%;
   }
 
-  .techStack-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .techStack p {
     font-size: 160%;
-  }
-
-  .techStack-heading {
-    border-radius: 30px;
-    padding: 0 2%;
-    max-width: 50%;
-    background-color: #fff;
-    border: 2px solid black;
-    box-shadow: 6px 6px 1px #000;
   }
 
   .icons-container {
@@ -441,21 +442,6 @@
     background-color: #edeae5;
     padding: 2%;
     margin: 1%;
-  }
-
-  .work-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .work-heading {
-    border-radius: 30px;
-    padding: 0 2%;
-    max-width: 50%;
-    background-color: #fff;
-    border: 2px solid black;
-    box-shadow: 6px 6px 1px #000;
   }
 
   .work a {

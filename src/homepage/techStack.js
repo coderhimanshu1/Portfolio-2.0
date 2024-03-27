@@ -32,8 +32,8 @@ const TechStack = ({ techStackRef }) => {
   return (
     <div className="techStack" ref={techStackRef}>
       <Title />
-      <div className="techStack-container">
-        <div className="techStack-heading">
+      <div className="container">
+        <div className="heading">
           <h1>Tech Stack</h1>
         </div>
         <div className="icons-container">

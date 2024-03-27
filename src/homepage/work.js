@@ -11,8 +11,8 @@ const Work = () => {
   return (
     <div className="work" style={{ backgroundColor: bgColor }}>
       <Title />
-      <div className="work-container">
-        <div className="work-heading">
+      <div className="container">
+        <div className="heading">
           <h1>My Work</h1>
         </div>
         <div className="projects-container">
