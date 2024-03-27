@@ -9,13 +9,13 @@ import Title from "./title";
 
 const Footer = ({ footerRef }) => {
   return (
-    <div ref={footerRef}>
+    <div ref={footerRef} className="section Footer">
       <Title />
       <div className="container">
         <div className="heading">
           <h1>Get In Touch!</h1>
         </div>
-        <div className="Footer">
+        <div className="Footer-container">
           <p>
             Looking to make an impact on your next project? That's great! Reach
             out to me via LinkedIn or direct email to discuss!

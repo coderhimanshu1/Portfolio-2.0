@@ -493,6 +493,9 @@
    ****************/
 
   .Footer {
+    background-color: #fcf4d7;
+  }
+  .Footer-container {
     display: flex;
     margin: 3% 4%;
     flex-direction: column;
