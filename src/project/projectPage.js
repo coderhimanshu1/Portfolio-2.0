@@ -98,28 +98,40 @@ const ProjectPage = ({ projectData }) => {
         </div>
       </div>
 
-      <Title titleText="Key Challenges" />
-
-      {keyChallenges && (
-        <div className="ProjectPage-list">
-          <List items={keyChallenges} />
+      <div className="Key-challenges section">
+        <Title />
+        <div className="container">
+          <div className="heading">
+            <h1>Key Challenges</h1>
+          </div>
+          {keyChallenges && (
+            <div className="ProjectPage-list">
+              <List items={keyChallenges} />
+            </div>
+          )}
         </div>
-      )}
+      </div>
 
-      <Title titleText="What I have learned" />
+      <div className="Learnings section">
+        <Title />
+        <div className="container">
+          <div className="heading">
+            <h1>What I have learned</h1>
+          </div>
+          {learnings && (
+            <div className="ProjectPage-list">
+              <List items={learnings} />
+            </div>
+          )}
 
-      {learnings && (
-        <div className="ProjectPage-list">
-          <List items={learnings} />
+          {notes && (
+            <div className="ProjectPage-note">
+              <b>Note: </b>
+              <List items={notes} />
+            </div>
+          )}
         </div>
-      )}
-
-      {notes && (
-        <div className="ProjectPage-note">
-          <b>Note: </b>
-          <List items={notes} />
-        </div>
-      )}
+      </div>
     </div>
   );
 };

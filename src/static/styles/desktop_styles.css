@@ -644,11 +644,27 @@
   .ProjectHeader-badge {
     max-width: 40%;
   }
+
   /*****************
    Development Process styles
    ****************/
   .Development-process {
     background-color: #fef9c7;
+  }
+
+  /*****************
+  Key-challenges styles
+   ****************/
+
+  .Key-challenges {
+    background-color: #026670;
+  }
+
+  /*****************
+Learnings styles
+   ****************/
+  .Learnings {
+    background-color: #edeae5;
   }
 
   /*****************
