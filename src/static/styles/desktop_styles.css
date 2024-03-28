@@ -78,6 +78,10 @@
    About page styles
    ****************/
 
+  .about {
+    background-color: #e6e4e3;
+  }
+
   .about-page {
     margin: 2% auto;
     padding: 20px;
@@ -141,7 +145,6 @@
   .timeline-image {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
     margin-bottom: 0;
   }
 
