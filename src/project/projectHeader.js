@@ -17,12 +17,12 @@ const ProjectHeader = ({
   badge,
 }) => {
   return (
-    <>
+    <div
+      className="ProjectHeader-container"
+      style={{ backgroundColor: backgroundColor }}
+    >
       <Title />
-      <div
-        className="ProjectHeader"
-        style={{ backgroundColor: backgroundColor }}
-      >
+      <div className="ProjectHeader">
         <h1>{projectName}</h1>
         <div className="ProjectHeader-items">
           <div className="ProjectHeader-items-text">
@@ -70,7 +70,7 @@ const ProjectHeader = ({
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
