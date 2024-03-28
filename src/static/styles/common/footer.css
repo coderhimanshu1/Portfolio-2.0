@@ -1,10 +1,17 @@
 @media (max-width: 768px) {
   .Footer {
     display: flex;
-    margin: 12% 4%;
     flex-direction: column;
     line-height: 130%;
     text-align: center;
+    justify-content: center;
+    background-color: #c4faeee6;
+  }
+
+  .Footer-container {
+    display: flex;
+    margin: 3% 4%;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -27,11 +34,12 @@
     margin: 4% 15%;
     font-size: 80%;
   }
-
   .Footer-contact a:hover {
     border: 3px solid black;
+    box-shadow: 6px 6px 1px #000;
+    border-radius: 16px;
+    background-color: #fcfaf9;
   }
-
   .Footer-contact div {
     margin: 12% 5%;
   }

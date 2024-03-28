@@ -1,6 +1,7 @@
 @media (max-width: 768px) {
   .techStack {
     text-align: center;
+    background-color: #b7cfff;
   }
 
   .icons-container {
@@ -15,6 +16,14 @@
     text-align: center;
     margin-bottom: 20px;
     width: 30%;
+    border-radius: 30px;
+    background-color: #ffff;
+    border: 2px solid black;
+  }
+
+  .icon:hover {
+    border: 2px solid black;
+    box-shadow: 4px 4px 1px #000;
   }
 
   .icon-image {
@@ -26,5 +35,6 @@
     word-wrap: break-word;
     margin-top: 10px;
     font-size: 14px;
+    padding-bottom: 2%;
   }
 }
