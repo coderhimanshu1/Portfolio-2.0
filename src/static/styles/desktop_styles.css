@@ -493,7 +493,7 @@
    ****************/
 
   .Footer {
-    background-color: #fcf4d7;
+    background-color: #c4faeee6;
   }
   .Footer-container {
     display: flex;
@@ -812,6 +812,10 @@
 }
 
 /* Blog styles */
+
+.Blog-container {
+  background-color: #fcf6f5;
+}
 
 /* center image */
 .Blog-overlay figure {
