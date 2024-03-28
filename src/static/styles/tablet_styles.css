@@ -3,6 +3,28 @@
   /*****************
    Common styles
    ****************/
+
+  .section {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 2%;
+    margin: 1%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading {
+    border-radius: 30px;
+    padding: 0 2%;
+    max-width: 50%;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
+  }
+
   .dots-container {
     display: flex;
     justify-content: space-between;
@@ -179,9 +201,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 5%;
-    padding-top: 2%;
+    margin: 1% 1%;
     max-width: 100%;
+    border-radius: 30px;
+    background-color: #ecdee6;
+    border: 4px solid black;
   }
 
   .navbar a {
@@ -208,8 +232,9 @@
   }
 
   .navbar-right {
-    font-size: 140%;
-    margin: 8%;
+    font-size: 150%;
+    text-wrap: nowrap;
+    width: 90%;
   }
 
   .navbar-right a,
@@ -220,55 +245,68 @@
 
   .navbar-right a:hover {
     color: black;
-    border: 3px solid black;
+    border: 2px solid black;
+    background-color: #ffff;
+    box-shadow: 6px 6px 1px #000;
   }
 
   .navbar span:hover {
     color: black;
-    background-color: #f7f4e3;
+    background-color: #ffff;
     border: 3px solid black;
+    box-shadow: 6px 6px 1px #000;
   }
 
   /*****************
    Home styles
    ****************/
 
+  .Header {
+    text-align: center;
+    background-color: #edeae5;
+  }
+
   .Header-profile {
+    margin: 3%;
     font-size: 100%;
+    border-radius: 30px;
+    background-color: #ecc76f;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
+  }
+
+  .Home-bio-text,
+  .Home-bio-heading {
+    border-radius: 30px;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
+  }
+
+  .Home-bio-heading {
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .Home-bio-text {
+    padding: 4% 3%;
+    text-align: left;
   }
 
   .Home-bio {
-    padding: 0 3%;
-    text-align: center;
-    line-height: 140%;
+    padding: 3%;
   }
 
   .Home-bio p {
-    font-size: 90%;
+    font-size: 130%;
     line-height: 140%;
-  }
-
-  .Home-bio img {
-    width: 10%;
-    padding: 0%;
-  }
-
-  .Home-bio-img {
-    display: flex;
-    justify-content: flex-end;
-    width: 90%;
-  }
-
-  .Home-image-container {
-    text-align: center;
   }
 
   .profile-image {
     border-radius: 50%;
-    border: 8px solid #f7bf3e;
-    width: 200px;
     height: 200px;
-    object-fit: cover;
   }
 
   .Home-button {
@@ -291,10 +329,6 @@
     color: #f7f4e3;
     background-color: black;
     cursor: pointer;
-  }
-
-  .Header {
-    text-align: center;
   }
 
   .arrow {
