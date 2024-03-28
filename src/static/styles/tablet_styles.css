@@ -456,13 +456,13 @@
 
   .Footer {
     display: flex;
-    margin: 6% 4%;
     flex-direction: column;
-    justify-content: center;
+    background-color: #c4faeee6;
   }
 
   .Footer p {
     font-size: 180%;
+    text-align: center;
   }
 
   .Footer-contact {
