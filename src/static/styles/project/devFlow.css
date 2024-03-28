@@ -1,4 +1,34 @@
 @media (max-width: 768px) {
+  /*****************
+   Development Process styles
+   ****************/
+  .Development-process {
+    background-color: #fef9c7;
+  }
+
+  /*****************
+  Key-challenges styles
+   ****************/
+
+  .Key-challenges {
+    background-color: #026670;
+  }
+
+  /*****************
+Learnings styles
+   ****************/
+  .Development-process h1 .Learnings h1 {
+    text-wrap: nowrap;
+    font-size: 180%;
+  }
+
+  .Learnings {
+    background-color: #edeae5;
+  }
+
+  /*****************
+DevFlow styles
+   ****************/
   .DevFlow div {
     display: flex;
     flex-direction: column;

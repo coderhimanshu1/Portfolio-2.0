@@ -578,7 +578,8 @@
   }
 
   .ProjectHeader-container {
-    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     background-color: #fff;
     padding: 2%;
     margin: 1%;

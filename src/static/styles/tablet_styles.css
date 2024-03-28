@@ -650,6 +650,7 @@ Learnings styles
     width: 70%;
     background-color: whitesmoke;
     border-radius: 20px;
+    border: 2px solid black;
   }
 
   .DevFlow div {

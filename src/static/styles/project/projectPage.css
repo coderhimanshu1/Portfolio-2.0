@@ -1,26 +1,16 @@
 @media (max-width: 768px) {
-  .ProjectPage h2 {
-    font-size: 130%;
-    background-color: black;
-    color: #f7f4e3;
-    border-radius: 20px;
-    padding: 2%;
-    width: fit-content;
-    margin-top: 10%;
+  .ProjectPage ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 140%;
+    width: 80%;
   }
 
   .ProjectPage h3 {
     text-align: center;
     margin-top: 5%;
     background-color: #f7cf73;
-    padding: 2% 0;
-    width: 80%;
-    font-size: 110%;
-  }
-
-  .ProjectPage ul {
-    display: flex;
-    flex-direction: column;
+    padding: 1%;
     font-size: 140%;
     width: 80%;
   }
@@ -30,7 +20,12 @@
     font-size: 80%;
     background-color: #f7bf3e;
     padding: 2%;
+    margin: 2%;
     border-radius: 20px;
+  }
+
+  .ProjectPage-list b {
+    font-size: 140%;
   }
 
   .ProjectPage-list p {
@@ -42,7 +37,6 @@
   .ProjectPage-list li {
     list-style: none;
     background-color: whitesmoke;
-    margin: 1%;
     border-radius: 20px;
     padding: 1%;
     border: 2px solid black;
@@ -56,7 +50,7 @@
 
   .ProjectPage-note {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 0 3%;
   }
 
@@ -70,6 +64,12 @@
     line-height: 140%;
     font-style: italic;
   }
+
+  .ProjectPage-note b {
+    font-size: 120%;
+    font-weight: 600;
+  }
+
   .ProjectPage-note li {
     list-style: none;
   }
