@@ -228,13 +228,13 @@
   }
 
   .navbar-left img {
-    max-width: 120px;
+    max-width: 100px;
   }
 
   .navbar-right {
     font-size: 150%;
     text-wrap: nowrap;
-    width: 90%;
+    width: 75%;
   }
 
   .navbar-right a,
@@ -395,6 +395,10 @@
    Work styles
    ****************/
 
+  .work {
+    background-color: #edeae5;
+  }
+
   .work a {
     display: flex;
     justify-content: center;
@@ -407,14 +411,16 @@
   }
 
   .project {
-    width: 92%;
-    height: 50%;
+    width: 90%;
+    height: 40%;
     text-align: center;
     border-radius: 20px;
     border: 3px solid black;
     margin: 2%;
-
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
   }
 
   .project h3 {
@@ -431,6 +437,10 @@
     max-width: 90%;
     height: 10%;
     border: 3px dashed black;
+  }
+
+  .project:hover {
+    border-radius: 0px;
   }
 
   .work-badge {
