@@ -1,5 +1,5 @@
-import remplr1DbSchema from "../../static/projectData/Remplr1-Database-Schema.png";
-import remplr1CustomerJourney from "../../static/projectData/Remplr1-customer-journey.png";
+import remplr1DbSchema from "../../static/projectData/Remplr1-Database-Schema.webp";
+import remplr1CustomerJourney from "../../static/projectData/Remplr1-customer-journey.webp";
 
 const RemplrData = {
   projectName: "Remplr | Meal Planner Platform",

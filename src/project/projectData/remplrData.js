@@ -1,6 +1,6 @@
-import remplr2Architecture from "../../static/projectData/Remplr-Design-Architecture.png";
-import remplr2DbSchema from "../../static/projectData/Remplr-Database-Schema.png";
-import Remplr2ComponentStructure from "../../static/projectData/Remplr-component-structure.png";
+import remplr2Architecture from "../../static/projectData/Remplr-Design-Architecture.webp";
+import remplr2DbSchema from "../../static/projectData/Remplr-Database-Schema.webp";
+import Remplr2ComponentStructure from "../../static/projectData/Remplr-component-structure.webp";
 
 const RemplrData = {
   projectName: "Remplr | Meal Planner Platform",
