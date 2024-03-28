@@ -522,6 +522,7 @@
     flex-direction: column;
     text-decoration: none;
     color: black;
+    width: fit-content;
     border: 3px solid transparent;
   }
 
@@ -532,7 +533,10 @@
 
   .Footer-contact a:hover {
     border: 3px solid black;
+    box-shadow: 6px 6px 1px #000;
     border-radius: 16px;
+    padding: 0 5%;
+    background-color: #fcfaf9;
   }
 
   .Footer-contact div {
@@ -625,7 +629,6 @@
   }
 
   .ProjectHeader iframe {
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     max-width: 110%;
     border-radius: 30px;
     border: 2px solid black;
