@@ -59,35 +59,43 @@ const ProjectPage = ({ projectData }) => {
         badge={projectData.badge}
       />
 
-      <div ref={devProcessRef}>
-        <Title titleText="Development Process" />
+      <div ref={devProcessRef} className="section Development-process">
+        <Title />
+        <div className="container">
+          <div className="heading">
+            <h1>Development Process</h1>
+          </div>
+          {architecture && (
+            <Image
+              src={architecture}
+              alt="Architecture"
+              heading="Architecture"
+            />
+          )}
 
-        {architecture && (
-          <Image src={architecture} alt="Architecture" heading="Architecture" />
-        )}
+          {dbSchema && (
+            <Image src={dbSchema} alt="Database" heading="Database Schema" />
+          )}
 
-        {dbSchema && (
-          <Image src={dbSchema} alt="Database" heading="Database Schema" />
-        )}
+          {customerJourney && (
+            <Image
+              src={customerJourney}
+              alt="customer journey"
+              heading="Customer Journey"
+            />
+          )}
 
-        {customerJourney && (
-          <Image
-            src={customerJourney}
-            alt="customer journey"
-            heading="Customer Journey"
-          />
-        )}
+          {componentStructure && (
+            <Image
+              src={componentStructure}
+              alt="Component Design"
+              heading="Component Design"
+              className="small-image"
+            />
+          )}
 
-        {componentStructure && (
-          <Image
-            src={componentStructure}
-            alt="Component Design"
-            heading="Component Design"
-            className="small-image"
-          />
-        )}
-
-        <DevFlow devFlow={devFlow} />
+          <DevFlow devFlow={devFlow} />
+        </div>
       </div>
 
       <Title titleText="Key Challenges" />
