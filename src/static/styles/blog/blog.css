@@ -24,25 +24,22 @@
   justify-content: space-between;
   width: 290px;
   padding: 16px;
-  background-color: #eee6b7;
-  border: 3px solid black;
-  border-radius: 12px;
+  border-radius: 30px;
+  background-color: #edeae5;
+  border: 2px solid black;
+  box-shadow: 6px 6px 1px #000;
   cursor: pointer;
-  transition: transform 0.2s ease;
   position: relative;
   overflow: hidden;
 }
 
 .Blog-card:hover {
-  transform: scale(1.05);
-  background-color: #676452;
-  color: #eee6b7;
+  border-radius: 0%;
 }
 
-.Blog-card:hover .Blog-button {
+.Blog-button {
   /* styles you want to apply to the button when the card is hovered */
   background-color: #676452;
-  color: #eee6b7;
 }
 .Blog-card img {
   width: 100%;
@@ -76,11 +73,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f7f4e3;
-  width: 80vw;
+  background-color: #f3f1ec;
+  width: 82vw;
   max-height: 90vh;
   overflow-y: auto;
-  padding: 36px;
+  padding: 39px;
   border-radius: 8px;
 }
 

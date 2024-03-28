@@ -10,11 +10,11 @@ import story from "../static/icons/story.png";
 const AboutPage = () => {
   return (
     <>
-      <Title />
-      <div className="about-page">
+      <div className="section about">
+        <Title />
         <div className="about-image-container">
           <img src={profileImage} alt="Profile" className="about-image" />
-          <div className="about-text">
+          <div className="about-text heading">
             <p>Hello, My Name is</p>
             <b>Himanshu Kumar</b>
             <hr />
@@ -44,6 +44,9 @@ const AboutPage = () => {
             color={"#F8FFF2"}
           />
         </div>
+      </div>
+
+      <div className="about-page">
         <div className="timeline-image">
           <img src={story} alt="story logo" />
         </div>

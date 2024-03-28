@@ -3,6 +3,28 @@
   /*****************
    Common styles
    ****************/
+
+  .section {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 2%;
+    margin: 1%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading {
+    border-radius: 30px;
+    padding: 0 2%;
+    max-width: 50%;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
+  }
+
   .dots-container {
     display: flex;
     justify-content: space-between;
@@ -55,9 +77,8 @@
    About page styles
    ****************/
 
-  .about-page {
-    margin: 2% auto;
-    padding: 20px;
+  .about {
+    background-color: #e6e4e3;
   }
 
   .about-image-container {
@@ -91,7 +112,7 @@
   .about-text hr {
     border-top: 3px dotted #000;
     border-bottom: none;
-    width: 110%;
+    width: 100%;
   }
 
   .about-header {
@@ -179,9 +200,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 5%;
-    padding-top: 2%;
+    margin: 1% 1%;
     max-width: 100%;
+    border-radius: 30px;
+    background-color: #ecdee6;
+    border: 4px solid black;
   }
 
   .navbar a {
@@ -204,12 +227,13 @@
   }
 
   .navbar-left img {
-    max-width: 120px;
+    max-width: 100px;
   }
 
   .navbar-right {
-    font-size: 140%;
-    margin: 8%;
+    font-size: 150%;
+    text-wrap: nowrap;
+    width: 75%;
   }
 
   .navbar-right a,
@@ -220,55 +244,68 @@
 
   .navbar-right a:hover {
     color: black;
-    border: 3px solid black;
+    border: 2px solid black;
+    background-color: #ffff;
+    box-shadow: 6px 6px 1px #000;
   }
 
   .navbar span:hover {
     color: black;
-    background-color: #f7f4e3;
+    background-color: #ffff;
     border: 3px solid black;
+    box-shadow: 6px 6px 1px #000;
   }
 
   /*****************
    Home styles
    ****************/
 
+  .Header {
+    text-align: center;
+    background-color: #edeae5;
+  }
+
   .Header-profile {
+    margin: 3%;
     font-size: 100%;
+    border-radius: 30px;
+    background-color: #ecc76f;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
+  }
+
+  .Home-bio-text,
+  .Home-bio-heading {
+    border-radius: 30px;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
+  }
+
+  .Home-bio-heading {
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+
+  .Home-bio-text {
+    padding: 4% 3%;
+    text-align: left;
   }
 
   .Home-bio {
-    padding: 0 3%;
-    text-align: center;
-    line-height: 140%;
+    padding: 3%;
   }
 
   .Home-bio p {
-    font-size: 90%;
+    font-size: 130%;
     line-height: 140%;
-  }
-
-  .Home-bio img {
-    width: 10%;
-    padding: 0%;
-  }
-
-  .Home-bio-img {
-    display: flex;
-    justify-content: flex-end;
-    width: 90%;
-  }
-
-  .Home-image-container {
-    text-align: center;
   }
 
   .profile-image {
     border-radius: 50%;
-    border: 8px solid #f7bf3e;
-    width: 200px;
     height: 200px;
-    object-fit: cover;
   }
 
   .Home-button {
@@ -293,10 +330,6 @@
     cursor: pointer;
   }
 
-  .Header {
-    text-align: center;
-  }
-
   .arrow {
     position: absolute;
     bottom: -5px;
@@ -315,6 +348,7 @@
 
   .techStack {
     text-align: center;
+    background-color: #b7cfff;
   }
 
   .techStack p {
@@ -331,24 +365,38 @@
   }
 
   .icon {
-    text-align: center;
-    margin-bottom: 30px;
-    width: 30%;
+    margin: 0 40px;
+    padding: 1%;
+    margin-bottom: 50px;
+    width: 13%;
+    border: 3px solid transparent;
+    border-radius: 30px;
+    background-color: #ffff;
+    border: 2px solid black;
+  }
+
+  .icon:hover {
+    border: 2px solid black;
+    box-shadow: 4px 4px 1px #000;
   }
 
   .icon-image {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
   }
 
   .icon-text {
-    margin-top: 8px;
-    font-size: 24px;
+    margin-top: 6px;
+    font-size: 22px;
   }
 
   /*****************
    Work styles
    ****************/
+
+  .work {
+    background-color: #edeae5;
+  }
 
   .work a {
     display: flex;
@@ -362,14 +410,16 @@
   }
 
   .project {
-    width: 92%;
-    height: 50%;
+    width: 90%;
+    height: 40%;
     text-align: center;
     border-radius: 20px;
     border: 3px solid black;
     margin: 2%;
-
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
   }
 
   .project h3 {
@@ -388,6 +438,10 @@
     border: 3px dashed black;
   }
 
+  .project:hover {
+    border-radius: 0px;
+  }
+
   .work-badge {
     margin: 2% 4%;
     border-radius: 20px;
@@ -401,13 +455,13 @@
 
   .Footer {
     display: flex;
-    margin: 6% 4%;
     flex-direction: column;
-    justify-content: center;
+    background-color: #c4faeee6;
   }
 
   .Footer p {
     font-size: 180%;
+    text-align: center;
   }
 
   .Footer-contact {
@@ -451,9 +505,13 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 6%;
-    margin: 5% 1%;
-    border: 3px solid black;
+  }
+
+  .ProjectHeader-container {
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 2%;
+    margin: 1%;
   }
 
   .ProjectHeader h1 {
@@ -534,6 +592,28 @@
   }
 
   /*****************
+   Development Process styles
+   ****************/
+  .Development-process {
+    background-color: #fef9c7;
+  }
+
+  /*****************
+  Key-challenges styles
+   ****************/
+
+  .Key-challenges {
+    background-color: #026670;
+  }
+
+  /*****************
+Learnings styles
+   ****************/
+  .Learnings {
+    background-color: #edeae5;
+  }
+
+  /*****************
    Image styles
    ****************/
   .Image {
@@ -570,6 +650,7 @@
     width: 70%;
     background-color: whitesmoke;
     border-radius: 20px;
+    border: 2px solid black;
   }
 
   .DevFlow div {
@@ -599,7 +680,18 @@
     width: 50%;
   }
 
+  .ProjectPage ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 140%;
+    padding: 2%;
+  }
+
   .ProjectPage-list h4 {
+    text-align: center;
+    background-color: #f7bf3e;
+    padding: 2%;
+    border-radius: 20px;
     font-size: 90%;
   }
 
@@ -609,10 +701,31 @@
   }
 
   .ProjectPage-list li {
-    margin: 1%;
+    list-style: none;
+    background-color: whitesmoke;
+    margin: 0 1%;
     width: 50%;
     border-radius: 20px;
-    padding: 1%;
+    padding: 2%;
     border: 2px solid black;
+  }
+  .ProjectPage-note ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .ProjectPage-note b {
+    font-size: 140%;
+    font-weight: 400;
+  }
+
+  .ProjectPage-note p {
+    font-size: 90%;
+    line-height: 150%;
+    font-style: italic;
+  }
+
+  .ProjectPage-note li {
+    list-style: none;
   }
 }

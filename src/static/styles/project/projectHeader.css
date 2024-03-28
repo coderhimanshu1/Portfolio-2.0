@@ -3,9 +3,13 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 3%;
-    margin: 5% 1%;
-    border: 2px solid black;
+  }
+  .ProjectHeader-container {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #fff;
+    padding: 2%;
+    margin: 1%;
   }
 
   .ProjectHeader h1 {

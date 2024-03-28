@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+  .about {
+    background-color: #e6e4e3;
+  }
+
   .about-page {
     display: flex;
     flex-direction: column;
@@ -8,7 +12,11 @@
   }
 
   .about-image-container {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% auto;
+    margin-top: 1%;
   }
 
   .about-image {
@@ -23,18 +31,26 @@
     flex-direction: column;
     justify-content: center;
     margin: 5%;
+    padding: 2%;
   }
 
   .about-text p,
   b {
-    font-size: 160%;
+    font-size: 170%;
     margin: 0;
   }
 
   .about-text hr {
     border-top: 3px dotted #000;
     border-bottom: none;
-    width: 110%;
+    width: 100%;
+  }
+
+  .about-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .timeline {

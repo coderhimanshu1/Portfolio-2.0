@@ -2,9 +2,13 @@
   .navbar {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    margin: 4%;
-    margin-top: 0;
+    margin: 1% 1%;
+    max-width: 100%;
+    border-radius: 30px;
+    background-color: #ecdee6;
+    border: 4px solid black;
   }
 
   .navbar a {
@@ -27,11 +31,17 @@
     text-align: center;
   }
 
+  .navbar-right a:hover {
+    color: black;
+    border: 2px solid black;
+    background-color: #ffff;
+    box-shadow: 6px 6px 1px #000;
+  }
+
   .navbar-right a,
   .navbar span {
     display: inline-block;
     margin: 2%;
-
     border-radius: 14px;
   }
 
@@ -50,12 +60,16 @@
 
   .navbar-right a:hover {
     color: black;
-    border: 3px solid black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0 1%;
   }
 
   .navbar span:hover {
     color: black;
-    background-color: #f7f4e3;
+    background-color: #ffff;
     border: 3px solid black;
+    box-shadow: 6px 6px 1px #000;
+    border-radius: 10px;
   }
 }

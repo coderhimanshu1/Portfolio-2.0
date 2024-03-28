@@ -1,22 +1,44 @@
 @media (max-width: 768px) {
+  .Header {
+    text-align: center;
+    height: fit-content;
+    background-color: #edeae5;
+  }
+
   .Header-profile {
     font-size: 90%;
+    margin: 3%;
+    border-radius: 30px;
+    background-color: #ecc76f;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
   }
+
+  .Home-bio-text,
+  .Home-bio-heading {
+    border-radius: 30px;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
+  }
+
+  .Home-bio-heading {
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  .Home-bio-text {
+    padding: 6% 3%;
+    text-align: left;
+  }
+
   .Home-bio {
     padding: 0 3%;
-    text-align: center;
-    line-height: 150%;
-    font-weight: lighter;
-    font-size: 95%;
-  }
-
-  .Home-bio p {
-    margin: 0%;
-  }
-
-  .Home-bio img {
-    width: 15%;
-    padding: 0%;
+    line-height: 160%;
+    font-size: 120%;
+    margin-bottom: 6%;
   }
 
   .Home-bio-img {

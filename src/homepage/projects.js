@@ -1,10 +1,10 @@
-import jobFindr from "../static/projects/jobFindr.gif";
-import currencyConverter from "../static/projects/currencyConverter.gif";
-import jeopardy from "../static/projects/jeopardy.gif";
-import remplr2 from "../static/projects/remplr2.gif";
-import remplr1 from "../static/projects/remplr1.gif";
-import pathos from "../static/projects/pathos.gif";
-import eliteKitchenFindsImage from "../static/projects/ElitekitchenFinds.gif";
+import jobFindr from "../static/projects/Job-findr.webp";
+import currencyConverter from "../static/projects/CurrencyConvertor.webp";
+import jeopardy from "../static/projects/Jeopardy.webp";
+import remplr2 from "../static/projects/Remplr2.webp";
+import remplr1 from "../static/projects/Remplr1.webp";
+import pathos from "../static/projects/Pathos.webp";
+import eliteKitchenFindsImage from "../static/projects/EliteKitchenFinds.webp";
 import pathosBadge from "../static/icons/Pathos-badge.PNG";
 
 const Projects = [

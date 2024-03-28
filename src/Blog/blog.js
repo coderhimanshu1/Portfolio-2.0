@@ -11,10 +11,10 @@ const Blog = ({ username }) => {
 
   const extractImageUrlFromContent = (content) => {
     const parser = new DOMParser();
-    const htmlDoc = parser.parseFromString(content, 'text/html');
-    const imgTag = htmlDoc.querySelector('figure img');
+    const htmlDoc = parser.parseFromString(content, "text/html");
+    const imgTag = htmlDoc.querySelector("figure img");
     return imgTag ? imgTag.src : null; // Return the src if an img tag is found, otherwise null
-  }
+  };
 
   useEffect(() => {
     $.ajax({
@@ -40,61 +40,66 @@ const Blog = ({ username }) => {
   }, [username]);
 
   return (
-    <>
-      <Title titleText="Recent Posts" />
-      <div className="Blog">
-        {isLoading ? (
-          <Loading />
-        ) : (
-          <div className="Blog-grid">
-            {
-  posts.map((post) => {
-    const imageUrl = extractImageUrlFromContent(post.content);
-    return (
-      <div
-        key={post.guid}
-        className="Blog-card"
-        onClick={() => setSelectedPost(post)}
-      >
-        <img src={imageUrl} alt={post.title} />
-        <small>By:{post.author}</small>
-        <h3>{post.title}</h3>
-        <span className="Blog-card-bottom">
-          <button className="Blog-button">Read More</button>
-        </span>
-      </div>
-    );
-  })
-}
-          </div>
-        )}
-        {selectedPost && (
-          <div className="Blog-overlay" onClick={() => setSelectedPost(null)}>
-            <div
-              className="Blog-overlay-content"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <button
-                className="Blog-overlay-close"
-                onClick={() => setSelectedPost(null)}
-              >
-                X
-              </button>
-              <h2>{selectedPost.title}</h2>
-              <div dangerouslySetInnerHTML={{ __html: selectedPost.content }} />
-              <a
-                href={selectedPost.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="Blog-overlay-button"
-              >
-                Read on Medium
-              </a>
+    <div className="Blog-container section">
+      <Title />
+      <div className="container">
+        <div className="heading">
+          <h1>Recent Posts</h1>
+        </div>
+        <div className="Blog ">
+          {isLoading ? (
+            <Loading />
+          ) : (
+            <div className="Blog-grid">
+              {posts.map((post) => {
+                const imageUrl = extractImageUrlFromContent(post.content);
+                return (
+                  <div
+                    key={post.guid}
+                    className="Blog-card"
+                    onClick={() => setSelectedPost(post)}
+                  >
+                    <img src={imageUrl} alt={post.title} />
+                    <small>By:{post.author}</small>
+                    <h3>{post.title}</h3>
+                    <span className="Blog-card-bottom">
+                      <button className="Blog-button">Read More</button>
+                    </span>
+                  </div>
+                );
+              })}
             </div>
-          </div>
-        )}
+          )}
+          {selectedPost && (
+            <div className="Blog-overlay" onClick={() => setSelectedPost(null)}>
+              <div
+                className="Blog-overlay-content"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <button
+                  className="Blog-overlay-close"
+                  onClick={() => setSelectedPost(null)}
+                >
+                  X
+                </button>
+                <h2>{selectedPost.title}</h2>
+                <div
+                  dangerouslySetInnerHTML={{ __html: selectedPost.content }}
+                />
+                <a
+                  href={selectedPost.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="Blog-overlay-button"
+                >
+                  Read on Medium
+                </a>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

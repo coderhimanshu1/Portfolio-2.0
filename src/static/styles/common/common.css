@@ -1,4 +1,27 @@
 @media (max-width: 768px) {
+  .section {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 2%;
+    margin: 1%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading {
+    border-radius: 20px;
+    padding: 0 2%;
+    max-width: 50%;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
+    font-size: 70%;
+  }
+
   .dots-container {
     display: flex;
     justify-content: space-between;

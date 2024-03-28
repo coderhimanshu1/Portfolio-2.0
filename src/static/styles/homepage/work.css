@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+  .work {
+    background-color: #edeae5;
+  }
+
   .work a {
     display: flex;
     justify-content: center;
@@ -14,12 +18,17 @@
     width: 92%;
     height: 20%;
     min-height: 20%;
-    border-radius: 20px;
     box-sizing: border-box;
     text-align: center;
-    border: 3px solid black;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000;
     margin: 2%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .project:hover {
+    border-radius: 0px;
   }
 
   .project h3 {
