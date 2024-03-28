@@ -4,7 +4,7 @@ const CurrencyConverter = {
   description:
     " App build on popular Python framework: Flask built using API: exchangerate.host. To start, click on start button and the form will appear. Users will now enter the currency codes and then the amount, which also accepts decimal values. Any incorrect entry or empty entry will display the corresponding error message. Click on convert to display the result.",
   demoVideo: "https://www.youtube.com/embed/wR_DxD0ZGW4?si=DZQ2P8SUOQNgPX2j",
-  liveLink: "https://currencyexchange.herokuapp.com/",
+  liveLink: "https://currency-converter-ukgv.onrender.com/",
   role: "Full-stack Engineer",
   techStack: "Python, Flask, and JavaScript",
   timeline: "Febuary, 2023 - March, 2023",
