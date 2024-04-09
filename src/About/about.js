@@ -38,7 +38,7 @@ const AboutPage = () => {
           />
           <Box
             header="How it Sparked?"
-            text="During my time working on Wordpress frontend for my food blog, I got interested in HTML, CSS, and JavaScript. That's where I found my passion for development and made a decision to switch my career and enroll in a 9-month intensive Full-stack software engineering boot camp at Springboard."
+            text="During my time working on Wordpress frontend for my food blog, I got interested in HTML, CSS, and JavaScript. That's where I found my passion for development and made a decision to switch my career and enroll in a Full-stack software engineering program at Springboard."
             color={"#F8FFF2"}
           />
         </div>
