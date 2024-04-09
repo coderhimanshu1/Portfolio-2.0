@@ -13,6 +13,8 @@ const TimelineData = [
     event:
       "Led the development of a high-conversion e-commerce platform at EliteKitchenFinds utilizing Next.js and TypeScript, while crafting dynamic, responsive interfaces with React and Chakra UI, significantly enhancing user engagement and accessibility.",
     color: "#F9EFE3",
+    projectLink: "https://himanshu.dev/projects/elitekitchenfinds",
+    linkText: "Checkout Project: EliteKitchenFinds",
   },
   {
     date: "December 2023",
