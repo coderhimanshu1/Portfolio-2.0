@@ -4,7 +4,6 @@ import profileImage from "../static/images/himanshu.jpg";
 import Title from "../common/title";
 import TimelineData from "./timelineData";
 import Box from "./box";
-import pathosBadge from "../static/icons/Pathos-small.PNG";
 import story from "../static/icons/story.png";
 
 const AboutPage = () => {
@@ -34,9 +33,8 @@ const AboutPage = () => {
           />
           <Box
             header="Recent Updates"
-            text="Won Springboard Hackathon: Proposed original idea to build AI-powered platform aiming to boost empathy and emotional intelligence in remote workplace environments."
+            text="Designed and developed eCommerce platform for a client using Next.js on Frontend and Sanity for headless CMS. Led the development of a high-conversion e-commerce platform at EliteKitchenFinds utilizing Next.js and TypeScript, while crafting dynamic, responsive interfaces with React and Chakra UI, significantly enhancing user engagement and accessibility."
             color="#E8E5CF"
-            icon={pathosBadge}
           />
           <Box
             header="How it Sparked?"

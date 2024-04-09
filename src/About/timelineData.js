@@ -9,6 +9,12 @@ import start from "../static/icons/start.png";
 
 const TimelineData = [
   {
+    date: "January 2024 - present",
+    event:
+      "Led the development of a high-conversion e-commerce platform at EliteKitchenFinds utilizing Next.js and TypeScript, while crafting dynamic, responsive interfaces with React and Chakra UI, significantly enhancing user engagement and accessibility.",
+    color: "#F9EFE3",
+  },
+  {
     date: "December 2023",
     event:
       "Started my first contract role as a Software Engineer at EM Marketing, where I am actively involved in code reviews and building e-commerce platforms with Next.js, Sanity.io, and Shopify. I'm working passionately on React-based projects, cross-functional collaboration, agile methodologies, and staying updated with the latest software trends.",
@@ -26,7 +32,6 @@ const TimelineData = [
     icon: star,
   },
 
-  
   {
     date: "Sept 2023 - Oct 2023",
     event:
@@ -34,7 +39,6 @@ const TimelineData = [
     color: "#F9EFE3",
     projectLink: "https://himanshu.dev/projects/pathos",
     linkText: "Checkout Project: Pathos",
-    
   },
   {
     image: coder1,
