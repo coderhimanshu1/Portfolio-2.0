@@ -9,12 +9,18 @@ import start from "../static/icons/start.png";
 
 const TimelineData = [
   {
-    date: "January 2024 - present",
+    date: "April 2024 - present",
+    event:
+      "Started working with Wizardry Labs where I'm developing full-stack applications with TypeScript and Next.js, ensuring robust, type-safe integrations. My work includes optimizing SQL and Prisma operations for better performance and using Docker for streamlined deployment. I continuously expand my skills to contribute effectively within a team-focused environment.",
+    color: "#F9EFE3",
+  },
+  {
+    date: "January 2024 - April 2024",
     event:
       "Led the development of a high-conversion e-commerce platform at EliteKitchenFinds utilizing Next.js and TypeScript, while crafting dynamic, responsive interfaces with React and Chakra UI, significantly enhancing user engagement and accessibility.",
     color: "#F9EFE3",
     projectLink: "https://himanshu.dev/projects/elitekitchenfinds",
-    linkText: "Checkout Project: EliteKitchenFinds",
+    linkText: "Checkout: EliteKitchenFinds",
   },
   {
     date: "December 2023",
@@ -117,16 +123,15 @@ const TimelineData = [
       "Successfully completed the Front-End Web Development program on LinkedIn Learning where I gained essential experience in HTML, CSS, and JavaScript along with foundations of web development, responsive design, and user experience.",
     color: "#F8FFF2",
   },
-
+  {
+    color: "#070B0D",
+    image: start,
+  },
   {
     date: "August 2021",
     event:
       "Over the years (2016-2022), I worked on buidling front-end using WordPress and designed a user friendly food showcase website bringing 10% more visitors and 15% more page views each month. This experience made me really interested in web development.",
     color: "#F9EFE3",
-  },
-  {
-    color: "#070B0D",
-    image: start,
   },
 ];
 
