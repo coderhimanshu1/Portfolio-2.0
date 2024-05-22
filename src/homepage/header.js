@@ -33,19 +33,36 @@ const Header = ({ handleButtonClick }) => {
           </div>
           <div className="Home-bio-text">
             <p>
-              I'm a Full Stack Engineer based in Vancouver who enjoys building
-              beautiful software with a user-centric approach. I recently
-              graduated from Springboard's Software Engineering (Full Stack)
-              program. I have spent 3 years on Frontend and 1+ year working on
-              Full-stack development. Before the Software Engineering pivot, I
-              spent 7+ years working in leadership + System Admin roles in the
-              IT industry and have a Bachelor of Technology Degree.
+              I'm a passionate Full-stack software engineer with over three
+              years of experience specializing in front-end technologies and
+              full-stack development. I have a proven track record of delivering
+              high-quality, scalable applications that meet diverse client
+              needs. I further honed my skills by completing Springboard's
+              Software Engineering (Full Stack) program. Before transitioning to
+              Software Engineering; with over seven years in system
+              administration, along with four years in leadership roles, I bring
+              a wealth of knowledge and practical expertise to every project.
             </p>
+            <hr />
+            <h4>Professional Highlights</h4>
+            <ul>
+              <li>
+                <strong>E-commerce Excellence:</strong> I developed a
+                high-conversion e-commerce platform for EliteKitchenFinds,
+                enhancing user experience and driving sales.
+              </li>
+              <li>
+                <strong>AI Innovation:</strong> I led the development of an
+                AI-driven workplace engagement application for Pathos,
+                revolutionizing employee interaction and productivity.
+              </li>
+              <li>
+                <strong>Tech Expertise:</strong> My technical skill set includes
+                JavaScript, React, Next.js, Python, Flask, Node.js, Express, and
+                PostgreSQL.
+              </li>
+            </ul>
           </div>
-
-          {/* <div className="Home-bio-img">
-            <img src={flower} alt="flower" />
-          </div> */}
         </div>
       </div>
       <div className="button-container">

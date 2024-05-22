@@ -284,9 +284,12 @@
   }
 
   .Header-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     margin-top: 3%;
     width: 50%;
-    font-size: 110%;
+    font-size: 130%;
     border-radius: 30px;
     background-color: #ecc76f;
     border: 2px solid black;
@@ -324,19 +327,11 @@
     width: 50%;
   }
 
-  .Home-bio img {
-    width: 15%;
-  }
-
-  .Home-bio-img {
-    display: flex;
-    justify-content: flex-end;
-    width: 90%;
-  }
-
   .profile-image {
+    width: 40%;
     border-radius: 50%;
-    /* border: 8px solid #f7bf3e; */
+    margin: 8%;
+    border: 8px solid #f7bf3e;
   }
 
   .name {
