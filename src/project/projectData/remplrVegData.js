@@ -173,8 +173,9 @@ const RemplrData = {
       header: "Database Modeling and Relationship Management",
       text: "Acquired proficiency in defining and managing database models using SQLAlchemy. This included establishing relationships between different entities, implementing CRUD operations, and maintaining data integrity throughout the application.",
     },
+  ],
+  notes: [
     {
-      header: "Note:",
       text: "This is an mvp of first version of Remplr where main features were implemented for nutritionist login",
     },
   ],
