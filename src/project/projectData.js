@@ -5,6 +5,7 @@ import CurrencyConverter from "./projectData/currencyConverter";
 import Jeopardy from "./projectData/jeopardy";
 import Pathos from "./projectData/pathosData";
 import EliteKitchenFindsData from "./projectData/EliteKitchenFindsData";
+import CraftMyCardData from "./projectData/CraftMyCardData";
 
 const ProjectData = {
   remplr: RemplrData,
@@ -14,6 +15,7 @@ const ProjectData = {
   jeopardy: Jeopardy,
   pathos: Pathos,
   elitekitchenfinds: EliteKitchenFindsData,
+  craftmycard: CraftMyCardData,
 };
 
 export default ProjectData;

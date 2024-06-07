@@ -6,8 +6,18 @@ import remplr1 from "../static/projects/Remplr1.webp";
 import pathos from "../static/projects/Pathos.webp";
 import eliteKitchenFindsImage from "../static/projects/EliteKitchenFinds.webp";
 import pathosBadge from "../static/icons/Pathos-badge.PNG";
+import craftMyCardImage from "../static/projects/craftmycard.png";
 
 const Projects = [
+  {
+    id: 1,
+    title: "CraftMyCard | Handmade Greeting Cards",
+    linkData: "craftmycard",
+    description:
+      "CraftMyCard is an online platform for creating and purchasing handmade greeting cards. It allows users to personalize their cards with custom designs, colors, and messages, making every card unique and special.",
+    image: craftMyCardImage,
+    backgroundColor: "#FFF8F1",
+  },
   {
     id: 1,
     title: "Elite Kitchen Finds | Curated Kitchenware E-commerce",
