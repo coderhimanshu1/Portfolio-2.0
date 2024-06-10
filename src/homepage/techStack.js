@@ -12,11 +12,17 @@ import flask from "../static/icons/flask.png";
 import postgresql from "../static/icons/postgresql.png";
 import jquery from "../static/icons/jquery.png";
 import restAPI from "../static/icons/restAPI.png";
+import docker from "../static/icons/docker.png";
+import typescript from "../static/icons/typescript.png";
+import aws from "../static/icons/aws.png";
 
 import Title from "../common/title";
 
 const TechStack = ({ techStackRef }) => {
   const icons = [
+    { name: aws, text: "AWS" },
+    { name: typescript, text: "TypeScript" },
+    { name: docker, text: "Docker" },
     { name: next, text: "Next.js" },
     { name: react, text: "React.js" },
     { name: javascript, text: "JavaScript" },
