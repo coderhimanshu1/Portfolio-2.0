@@ -9,24 +9,36 @@ const CraftMyCardData = {
   demoVideo: "",
   github: "",
   liveLink: "https://craftmycard.com/",
-  role: "Full-stack Developer",
+  role: "Full-stack Developer, Product Manager, Designer",
   techStack:
     "React, Next.js, Tailwind CSS, PostgreSQL, Prisma, AWS S3, Docker, Vercel",
-  timeline: "January, 2024 - Present",
+  timeline: "April, 2024 - Present",
   devFlow: {
     headings: [
       {
         heading: "Initial Setup and Configuration >>>",
         steps: {
           step1: {
+            header: "Agile Methodologies",
+            text: "Utilized agile methodologies to manage the product development using Jira, ensuring effective sprint planning, tracking, and delivery.",
+          },
+          step2: {
+            header: "UI/UX Design",
+            text: "Designed the user interface and user experience, focusing on creating an intuitive and visually appealing platform.",
+          },
+          step3: {
+            header: "Brand Identity",
+            text: "Developed the brand identity for CraftMyCard, including the logo, color scheme, and typography.",
+          },
+          step4: {
             header: "Project Initialization",
             text: "Used create-next-app to set up the development environment, ensuring a robust foundation for the project's frontend.",
           },
-          step2: {
+          step5: {
             header: "Database Configuration",
             text: "Configured PostgreSQL as the database using Prisma as the ORM, establishing a structured data model for users, products, and customizations.",
           },
-          step3: {
+          step6: {
             header: "Storage Setup",
             text: "Integrated AWS S3 for storing images and other assets, enabling efficient and scalable file management.",
           },
@@ -133,6 +145,40 @@ const CraftMyCardData = {
       text: "Continuous monitoring and iterative improvements based on user feedback are crucial for maintaining a high-quality user experience.",
     },
   ],
+  additionalRoles: {
+    productManager: {
+      responsibilities: [
+        {
+          header: "Defining Product Vision",
+          text: "Outlined the product vision and roadmap, ensuring alignment with user needs and business goals.",
+        },
+        {
+          header: "User Research",
+          text: "Conducted user research and feedback sessions to gather insights and refine product features.",
+        },
+        {
+          header: "Prioritizing Features",
+          text: "Worked with the development team to prioritize features and tasks, ensuring timely delivery of high-impact functionalities.",
+        },
+      ],
+    },
+    designer: {
+      responsibilities: [
+        {
+          header: "UI/UX Design",
+          text: "Designed the user interface and user experience, focusing on creating an intuitive and visually appealing platform.",
+        },
+        {
+          header: "Prototyping",
+          text: "Created wireframes and prototypes to visualize and test the design concepts before implementation.",
+        },
+        {
+          header: "Brand Identity",
+          text: "Developed the brand identity for CraftMyCard, including the logo, color scheme, and typography.",
+        },
+      ],
+    },
+  },
 };
 
 export default CraftMyCardData;
