@@ -5,6 +5,7 @@ import Navbar from "./common/navBar";
 import ProjectPageContainer from "./project/projectPageContainer";
 import AboutPage from "./About/about";
 import Blog from "./Blog/blog";
+import Services from "./services/Services";
 // import Maintenance from "./Maintenance/maintenance";
 import Footer from "./common/footer";
 import Work from "./homepage/work";
@@ -24,6 +25,7 @@ const RouteContainer = () => {
 
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projects" element={<Work />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/blog" element={<Blog username="himanshu-dev" />} />
         {/* <Route path="/blog" element={<Maintenance />} /> */}
         <Route

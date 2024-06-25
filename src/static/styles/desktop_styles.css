@@ -377,6 +377,19 @@
     transform: rotate(135deg);
   }
 
+  /* Services page */
+  .services-arrow {
+    position: absolute;
+    bottom: -35px;
+    left: 80px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 22px 0;
+    border-color: #090909 transparent transparent transparent;
+    /* transform: rotate(135deg); */
+  }
+
   /*****************
    TechStack styles
    ****************/
