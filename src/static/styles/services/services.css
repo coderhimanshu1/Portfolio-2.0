@@ -39,7 +39,8 @@
 }
 
 .services,
-.services-intro {
+.services-intro,
+.booking-section {
   margin: 0 1%;
 }
 
@@ -63,8 +64,26 @@
 
 .service-category li:hover {
   color: #4b513d;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .service-category li {
   margin: 10px 0;
+}
+
+.booking-section {
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.booking-section h2 {
+  font-size: 200%;
+  color: #463f1a;
+}
+
+.booking-section p {
+  margin-bottom: 20px;
+  color: #463f1a;
 }

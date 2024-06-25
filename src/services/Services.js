@@ -1,8 +1,6 @@
 import Header from "./ServicesHeader";
 import "../static/styles/services/services.css";
-
 import React from "react";
-import Title from "../common/title";
 
 const services = [
   {
@@ -86,6 +84,20 @@ const Services = () => (
           </ul>
         </div>
       ))}
+    </div>
+    <div className="booking-section">
+      <h2>Book a Discovery Call</h2>
+      <p>
+        Interested in learning more about how I can help your project? Schedule
+        a discovery call with me!
+      </p>
+      <iframe
+        src="https://calendly.com/bookwithhimanshu/discovery-call-with-himanshu"
+        width="100%"
+        height="900"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
     </div>
   </div>
 );
