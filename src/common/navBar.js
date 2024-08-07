@@ -15,7 +15,6 @@ const Navbar = ({ handleContactClick }) => {
       <div className="navbar-right">
         <Link to="/about">About</Link>
         <Link to="/projects">Work</Link>
-        <Link to="/services">Services</Link>
         <Link to="/blog">Blog</Link>
         <a
           href="https://drive.google.com/file/d/1aGA8lpeTsa9Vt0yGd4C3Ej2o0rUXMIyi/view?usp=sharing"
