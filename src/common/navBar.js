@@ -17,7 +17,7 @@ const Navbar = ({ handleContactClick }) => {
         <Link to="/projects">Work</Link>
         <Link to="/blog">Blog</Link>
         <a
-          href="https://drive.google.com/file/d/1aGA8lpeTsa9Vt0yGd4C3Ej2o0rUXMIyi/view?usp=sharing"
+          href="https://drive.google.com/file/d/1GdbrGW-LaILzuUNf92PBN6fq6rclqB40/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
