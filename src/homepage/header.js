@@ -22,7 +22,7 @@ const Header = ({ handleButtonClick }) => {
           </div>
 
           <h2 className="role">
-            Full Stack
+            Front-end/ Full Stack
             <br /> Software Engineer
           </h2>
         </div>
@@ -33,18 +33,20 @@ const Header = ({ handleButtonClick }) => {
           </div>
           <div className="Home-bio-text">
             <p>
-              I'm a passionate Full-stack software engineer with over three
-              years of experience specializing in front-end technologies and
-              full-stack development. I have a proven track record of delivering
-              high-quality, scalable applications that meet diverse client
-              needs. I further honed my skills by completing Springboard's
-              Software Engineering (Full Stack) program. Before transitioning to
-              Software Engineering; with over seven years in system
-              administration, along with four years in leadership roles, I bring
-              a wealth of knowledge and practical expertise to every project.
+              As a Front-end/ Full Stack Software Engineer, my goal is to
+              leverage my experience in front-end technologies and full-stack
+              development to create meaningful, impactful applications that
+              enhance user experiences and drive business success. With a proven
+              track record in e-commerce, API integration, and scalable web
+              applications, I am dedicated to delivering innovative solutions
+              that meet diverse client needs. I am passionate about continuous
+              learning and adapting to the ever-evolving tech landscape,
+              ensuring that every project I undertake is not only technically
+              sound but also aligned with the strategic goals of the
+              organization.
             </p>
-            <hr />
-            <h4>Professional Highlights</h4>
+            {/* <hr /> */}
+            {/* <h4>Professional Highlights</h4>
             <ul>
               <li>
                 <strong>E-commerce Excellence:</strong> I developed a
@@ -61,7 +63,7 @@ const Header = ({ handleButtonClick }) => {
                 JavaScript, React, Next.js, Python, Flask, Node.js, Express, and
                 PostgreSQL.
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>

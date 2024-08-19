@@ -286,7 +286,7 @@
   .Header-profile {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     margin-top: 3%;
     width: 50%;
     font-size: 130%;
@@ -311,11 +311,16 @@
   }
 
   .Home-bio-text {
-    height: 80%;
+    font-size: 120%;
+    line-height: 2;
+    height: 60%;
     padding: 6% 3%;
     text-align: left;
   }
 
+  .Home-bio-text p {
+    margin: 0;
+  }
   .Home-bio {
     display: flex;
     flex-direction: column;

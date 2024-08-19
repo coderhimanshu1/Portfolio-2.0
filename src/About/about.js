@@ -17,17 +17,20 @@ const AboutPage = () => {
             <p>Hello, My Name is</p>
             <b>Himanshu Kumar</b>
             <hr />
-            <p>Full Stack engineer</p>
+            <p>
+              {" "}
+              Front-end/ Full Stack
+              <br />
+              Software Engineer
+            </p>
           </div>
         </div>
 
         <div className="about-header">
           <Box
             header="About Me"
-            text="Full Stack Engineer based in Vancouver who enjoys building
-            beautiful software. I recently
-            graduated from Springboard's Software Engineering (Full Stack)
-            program. I have spent over 2 years on Frontend and 1+ year on Full-stack. Before the Software Engineering pivot, I spent 8 years
+            text="Front-end /Full Stack Engineer based in Vancouver who enjoys building
+            beautiful software. I have spent over 3 years on Frontend and 2+ year on Full-stack development. Before the Software Engineering pivot, I spent 8 years
             working in leadership + System Admin roles in the IT industry."
             color={"#F9EFE3"}
           />
