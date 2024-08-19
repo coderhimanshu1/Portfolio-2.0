@@ -9,16 +9,22 @@ import start from "../static/icons/start.png";
 
 const TimelineData = [
   {
-    date: "April 2024 - present",
+    date: "July 2024 - Present",
     event:
-      "Started working with Wizardry Labs where I'm developing full-stack applications with TypeScript and Next.js, ensuring robust, type-safe integrations. My work includes optimizing SQL and Prisma operations for better performance and using Docker for streamlined deployment. I continuously expand my skills to contribute effectively within a team-focused environment.",
+      "Currently building a lead generation platform for an AI startup. This project involves architecture planning and implementing scalable front-end and back-end systems using React, Python, and PostgreSQL. The platform is tailored to optimize lead acquisition and conversion processes, integrating advanced data analytics and automation tools to enhance business growth.",
+    color: "#E8F0FE",
+  },
+  {
+    date: "April 2024 - June 2024",
+    event:
+      "Started working with Wizardry Labs, where I developed full-stack applications using TypeScript and Next.js, focusing on creating robust, type-safe integrations. My work involved optimizing SQL and Prisma operations to enhance performance and scalability while leveraging Docker for streamlined deployment processes. ",
     color: "#F9EFE3",
   },
   {
     date: "January 2024 - April 2024",
     event:
       "Led the development of a high-conversion e-commerce platform at EliteKitchenFinds utilizing Next.js and TypeScript, while crafting dynamic, responsive interfaces with React and Chakra UI, significantly enhancing user engagement and accessibility.",
-    color: "#F9EFE3",
+    color: "#F9E2DC",
     projectLink: "https://himanshu.dev/projects/elitekitchenfinds",
     linkText: "Checkout: EliteKitchenFinds",
   },
@@ -36,7 +42,7 @@ const TimelineData = [
     date: "October 2023",
     event:
       " Completed Software Engineering (Full Stack) program at Springboard where was actively involved in code reviews and built several Full Stack applications using React.js at Frontend and Node-based API for backend and more. ",
-    color: "#E4DFDF",
+    color: "#EEF5E0",
     icon: star,
   },
 
