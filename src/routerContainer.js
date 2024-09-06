@@ -9,6 +9,7 @@ import Services from "./services/Services";
 // import Maintenance from "./Maintenance/maintenance";
 import Footer from "./common/footer";
 import Work from "./homepage/work";
+import Resume from "./common/Resume";
 
 const RouteContainer = () => {
   const footerRef = useRef(null);
@@ -32,6 +33,7 @@ const RouteContainer = () => {
           path="/projects/:projectKey"
           element={<ProjectPageContainer />}
         />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
 
       <Footer footerRef={footerRef} />
