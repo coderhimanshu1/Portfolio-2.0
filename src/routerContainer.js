@@ -10,6 +10,7 @@ import Services from "./services/Services";
 import Footer from "./common/footer";
 import Work from "./homepage/work";
 import Resume from "./common/Resume";
+import FrontEndResume from "./common/FrontEndResume";
 
 const RouteContainer = () => {
   const footerRef = useRef(null);
@@ -33,7 +34,8 @@ const RouteContainer = () => {
           path="/projects/:projectKey"
           element={<ProjectPageContainer />}
         />
-        <Route path="/resume" element={<Resume />} />
+        <Route path="/resume/full-stack" element={<Resume />} />
+        <Route path="/resume/front-end" element={<FrontEndResume />} />
       </Routes>
 
       <Footer footerRef={footerRef} />

@@ -16,7 +16,7 @@ const Navbar = ({ handleContactClick }) => {
         <Link to="/about">About</Link>
         <Link to="/projects">Work</Link>
         <Link to="/blog">Blog</Link>
-        <Link to="/resume">Resume</Link>
+        <Link to="/resume/full-stack">Resume</Link>
 
         <span onClick={handleContactClick}>Get In Touch</span>
       </div>
