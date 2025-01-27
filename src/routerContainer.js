@@ -11,6 +11,7 @@ import Footer from "./common/footer";
 import Work from "./homepage/work";
 import Resume from "./common/Resume";
 import FrontEndResume from "./common/FrontEndResume";
+import BackEndResume from "./common/BackEndResume";
 
 const RouteContainer = () => {
   const footerRef = useRef(null);
@@ -36,6 +37,7 @@ const RouteContainer = () => {
         />
         <Route path="/resume/full-stack" element={<Resume />} />
         <Route path="/resume/front-end" element={<FrontEndResume />} />
+        <Route path="/resume/back-end" element={<BackEndResume />} />
       </Routes>
 
       <Footer footerRef={footerRef} />

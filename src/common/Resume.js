@@ -4,7 +4,7 @@ import "../static/styles/common/resume.css";
 function Resume() {
   useEffect(() => {
     window.location.href =
-      "https://drive.google.com/file/d/1uBRsrxe9R8FW-DXCM4C9EWWw0p93VCIe/view?usp=sharing";
+      "https://drive.google.com/file/d/1QJHA5miIfpKiWbGoUKes6GpPl4Ti1v6w/view?usp=sharing";
   }, []);
 
   return (
